@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
+
+/*
+font-family: 'Great Vibes', cursive;
+font-family: 'Prata', serif;
+font-family: 'Rubik', sans-serif;
+*/
+h3 {
+    font-family: 'Great Vibes';
+    font-size: 28px;
+    color: #c8693a;
+}
+
+h2 {
+    font-family: 'Prata';
+    font-size: 48px;
+    color: #000000;
+    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
+}
+
+p {
+    font-family: 'Rubik';
+    font-size: 18px;
+    color: #000000;
+    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
+}
+
+.arrow {
+    height: 24px;
+    width: 24px;
+}
