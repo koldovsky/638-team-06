@@ -5,6 +5,12 @@ font-family: 'Great Vibes', cursive;
 font-family: 'Prata', serif;
 font-family: 'Rubik', sans-serif;
 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 h3 {
     font-family: 'Great Vibes';
     font-size: 28px;
