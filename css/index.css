@@ -18,6 +18,23 @@ h2 {
     /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
 }
 
+.h-preference{
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: Prata,serif;
+    font-weight: 400;
+    color: #000000; 
+    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
+}
+
+.p-preference{
+    font-family: 'Rubik',sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #898022;
+    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
+}
+
 p {
     font-family: 'Rubik';
     font-size: 18px;
