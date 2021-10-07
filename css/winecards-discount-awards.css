@@ -1,0 +1,186 @@
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Prata', serif;
+font-family: 'Rubik', sans-serif; */
+
+/* red-white-wines section */
+
+.red-white-wines-row {
+    display: flex;
+}
+
+.red-wines {
+    background-image: url('../img/winecards-discount-awards/red-wines-taste.jpg');
+    background-size: cover;
+}
+
+.red-wines-title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.red-wines-about{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.white-wines {
+    background-image: url('../img/winecards-discount-awards/white-wines-taste.jpg');
+    background-size: cover;
+}
+
+.white-wines-title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.white-wines-about {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.shop-wine-btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+
+    background-color: #c8693a;
+}
+
+/* discount section */
+
+.discount {
+
+}
+
+.discount-block {
+    margin-top: 50px;
+    background-color: #c8693a;
+}
+
+.discount-title {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.discount-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.discount-btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16.5px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border: solid 2px #fff;
+}
+
+/* countdown section */
+
+.countdown-block {
+    margin-top: 50px;
+    background-color: #c8693a;
+}
+
+.countdown-title {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.countdown-row {
+    display: flex;
+    color: #fff;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+small {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    opacity: .50;
+}
+
+.countdown-expire {
+    font-size: 18px;
+    color: #fff;
+}
+
+.get-deal-btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+
+    background-color: #c8693a;
+}
+
+/* awards section */
+
+.awards {
+    margin-top: 50px;
+}
+
+.awards-suptitle {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c8693a;
+}
+
+.awards-title {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.awards-subtitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.awards-wrapper {
+}
+
+.awards-row {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.awards-row:last-child {
+    padding-bottom: 0;
+}
+
+.awards-icon {
+    width: 144px;
+    height: 72px;
+}
+
+.awards-nominee {
+    font-size: 18px;
+}
+
+.awards-year {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.awards-about {
+    font-size: 16px;
+    color: rgb(137, 128, 130);
+}
