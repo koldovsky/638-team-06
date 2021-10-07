@@ -1,5 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@400;700&display=swap');
-
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Prata', serif;
 font-family: 'Rubik', sans-serif; */
+
+.red-white-wines-row {
+    display: flex;
+}
+
+.red-wines {
+    background-image: url('../img/winecards-discount-awards/red-wines-taste.jpg');
+    background-size: cover;
+}
+
+.red-wines-title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.red-wines-about{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.white-wines {
+    background-image: url('../img/winecards-discount-awards/white-wines-taste.jpg');
+    background-size: cover;
+}
+
+.white-wines-title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.white-wines-about {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.shop-wine-btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+
+    background-color: #c8693a;
+}
+
+.discount {
+
+}
+
+.discount-block {
+    margin-top: 50px;
+    background-color: #c8693a;
+}
+
+.discount-title {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.discount-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.discount-btn {
+
+}
