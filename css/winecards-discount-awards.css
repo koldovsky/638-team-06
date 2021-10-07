@@ -159,7 +159,11 @@ small {
 
 .awards-row {
     display: flex;
-    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.awards-row:last-child {
+    padding-bottom: 0;
 }
 
 .awards-icon {
