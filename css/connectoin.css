@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap%27);
 /*
 font-family: 'Great Vibes', cursive;
 font-family: 'Prata', serif;
@@ -8,4 +8,7 @@ font-family: 'Rubik', sans-serif;
 .slogan {
     font-family: 'Great Vibes';
     color: #c8693a;
+}
+.hq {
+    background-color: #261e1c;
 }
