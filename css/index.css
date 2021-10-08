@@ -131,6 +131,12 @@ a {
     height: 980px;
 }
 
+.our-wines-special-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .row {
     display: flex;
 }
@@ -152,6 +158,34 @@ a {
     background-color: #261e1c;
 }
 
+.title-our-wines{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.button-buy-wines {
+    font-family: "Rubik", "sans-serif";
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #000000;
+    /* після додавання фонуколір змінити на #ffffff */
+}
+
+.button-learn-more {
+    font-family: "Rubik", "sans-serif";
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.button-learn-more:hover{
+    font-family: "Rubik", "sans-serif";
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #000000;
+}
+
 .assortment {
     display: flex;
     justify-content: space-around;
@@ -169,8 +203,41 @@ a {
     width: 227px;
 }
 
+.name-wine {
+    font-family: "Rubik", "sans-serif";
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.price {
+    font-family: "Rubik", "sans-serif";
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 .add-to-card {
+    font-family: "Rubik", "sans-serif";
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #ffffff;
     background-color: #c8693a;
+}
+
+.in-vino-with-play-video {
+    display: flex;
+}
+
+.in-vino {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.play-video{
+    display: flex;
+    flex-direction: column;
 }
 
 .play-img {
