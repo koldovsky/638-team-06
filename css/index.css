@@ -29,6 +29,12 @@ h2 {
     color: #ffffff;
 }
 
+.text-under-decor{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
 .h-preference {
     font-size: 1.375rem;
     /*28px*/
@@ -38,19 +44,15 @@ h2 {
     color: #ffffff;
 }
 
-.p-preference {
+/* .p-preference {
+    
+} */
+
+.just-text {
     font-family: 'Rubik', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     color: rgb(137, 128, 130);
-    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
-}
-
-p {
-    font-family: 'Rubik';
-    font-size: 18px;
-    color: #000000;
-    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
 }
 
 .orange-line {
@@ -71,19 +73,6 @@ p {
     width: 370px;
 }
 
-.play-img {
-    height: 70px;
-    width: 70px;
-}
-
-.play-text {
-    font-size: 0.875rem;
-    line-height: 1.6;
-    font-family: Rubik, sans-serif;
-    font-weight: 400;
-    color: #000000;
-    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
-}
 
 /*
 .link-with-arrow {
@@ -111,9 +100,12 @@ a {
 }
 
 .anchor-on-page {
+    padding-top: 120px;
+    padding-bottom: 60px;
     height: 656px;
     display: flex;
     justify-content: space-around;
+
 }
 
 .special-events-card {
@@ -132,7 +124,7 @@ a {
 }
 
 .info-card {
-    width: 30%;
+    height: 470px;
 }
 
 .our-wines-special {
@@ -179,4 +171,18 @@ a {
 
 .add-to-card {
     background-color: #c8693a;
+}
+
+.play-img {
+    height: 70px;
+    width: 70px;
+}
+
+.play-text {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
 }
