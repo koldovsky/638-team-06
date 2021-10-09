@@ -29,24 +29,22 @@ h2 {
     color: #ffffff;
 }
 
-.text-under-decor{
+
+.text-under-decor {
     font-family: 'Rubik', sans-serif;
     font-size: 1.125rem;
     color: #ffffff;
 }
 
-.h-preference {
+.h-preference, 
+.h-info-card {
     font-size: 1.375rem;
-    /*28px*/
+    /*22px*/
     line-height: 1.5;
     font-family: Prata, serif;
     font-weight: 400;
     color: #ffffff;
 }
-
-/* .p-preference {
-    
-} */
 
 .just-text {
     font-family: 'Rubik', sans-serif;
@@ -57,7 +55,8 @@ h2 {
 
 .orange-line {
     height: 2px;
-    width: 40px;
+    width: 10%;
+    max-width: 40px;
     background-color: #c8693a;
 }
 
@@ -99,13 +98,34 @@ a {
     background-color: #261e1c;
 }
 
-.anchor-on-page {
+/* .anchor-on-page {
     padding-top: 120px;
     padding-bottom: 60px;
     height: 656px;
     display: flex;
     justify-content: space-around;
 
+} */
+
+@media (min-width: 320px) {
+   
+    .our-special-wines-plus-cards{
+        padding:0 24px 0;
+    }
+
+    .anchor-on-page {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .info-card {
+        height: 430px;
+        padding-left:;
+    }
+
+    .anchor-on-page > section:not(:last-child){
+        margin-bottom: 50px;
+    }
 }
 
 .special-events-card {
@@ -124,7 +144,20 @@ a {
 }
 
 .info-card {
-    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.info-card > .orange-line,
+.info-card > .just-text {
+    margin-top: 15px;
+}
+
+.info-card > .link-with-arrow {
+    margin-top: 30px;
 }
 
 .our-wines-special {
@@ -154,14 +187,26 @@ a {
     justify-content: space-between;
 }
 
+.discover-our-wines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-button {
+    display: flex;
+    justify-content: center;
+}
+
 #our-wines {
     background-color: #261e1c;
 }
 
-.title-our-wines{
-display: flex;
-flex-direction: column;
-align-items: center;
+.title-our-wines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .button-buy-wines {
@@ -179,7 +224,7 @@ align-items: center;
     color: #ffffff;
 }
 
-.button-learn-more:hover{
+.button-learn-more:hover {
     font-family: "Rubik", "sans-serif";
     font-size: 0.9375rem;
     font-weight: 700;
@@ -235,7 +280,7 @@ align-items: center;
     justify-content: flex-start;
 }
 
-.play-video{
+.play-video {
     display: flex;
     flex-direction: column;
 }
