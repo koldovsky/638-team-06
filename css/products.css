@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
 
-/*
-@font-face {
-    font-family: 'Prata';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    */
 
 * {
     padding: 0;
@@ -14,43 +6,69 @@
 }
 
 :root {
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
-}
-
-body {
-    background-color: rgb(200, 105, 58);
-}
-
-.nav-bg {
-    color: black;
     
 }
 
-.container {
-    color: rgba(230, 130, 7, 0.35);
-    max-width: 980px;
-    margin: auto;
+body {
+    background-color: #261e1c;
 }
 
-
-
+.icon-menu {
+    width: auto;
+    height: 25px;
+}
 .fixed-logo {
-    width: auto;
-    height:45px;
+    width: 176px;
+    height: auto;
+
 }
 
-.fixed-menu {
-    height: 30px;
-    width: auto;
+header > nav {
+    background-color: #1a1513;
 }
+
+header .menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+header nav .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav .menu a:hover {
+    font-weight: bold;
+       
+}
+
+header .social-icons {
+    width: 45px;
+    height: auto;
+}
+
+div .social-box {
+    width: 45px;
+    height: auto;
+    border: 1.5px solid #c8693a;
+    
+    
+
+}
+
+.name-of-page {
+    font-family: 'Prata', serif;
+    font-size: 1.75rem;
+    color: white;
+}
+
 
 .products {
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 5vm);
-    grid-gap: 10px;
-
+font-family: 'Great Vibes', cursive;
 }
 
 
