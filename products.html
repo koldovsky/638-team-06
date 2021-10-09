@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="image/x-icon" href="img/wine-glass-favicon.png" rel="shortcut icon">
+    <link rel="stylesheet" href="css/products.css">
     <title>Wine Store</title>
 </head>
 
@@ -26,38 +27,42 @@
                 </div>
             </div>
         </nav>
-        
+
     </header>
     <main>
         <img src="img/button-backet.svg" alt="">
 
         <h1>products</h1>
 
-        <div>
+        <div class="block-bg">
             <div class="products">
+
                 <img src="img/wine-table-traditional/cabernet.jpeg" alt="Cabernet">
                 <div class="bold-main-text">Cabernet</div>
                 <p class="bold-number-text">17,00USD</p>
                 <input type="button" value="Buy">
+
             </div>
 
             <div class="products">
+
                 <img src="img/wine-table-traditional/pinotGrigio.jpeg" alt="Pinot Grigio">
                 <div class="bold-main-text">Pinot Grigio</div>
                 <p class="bold-number-text">10,00USD</p>
                 <input type="button" value="Buy">
+
             </div>
 
 
             <div class="products">
-                <img src="img/imagine-wine-bottle/pinot-noir.jpeg" alt="Pinot Noir">
+                <img src="img/wine-table-traditional/ponotNoir.jpeg" alt="Pinot Noir">
                 <div class="bold-main-text">Pinot Noir</div>
                 <p class="bold-number-text">12,00USD</p>
                 <input type="button" value="Buy">
             </div>
 
             <div class="products">
-                <img src="img/imagine-wine-bottle/riesling.jpeg" alt="Riesling">
+                <img src="img/wine-table-traditional/riesling.jpeg" alt="Riesling">
                 <div class="bold-main-text">Riesling</div>
                 <p class="bold-number-text">16,00USD</p>
                 <input type="button" value="Buy">
@@ -72,7 +77,7 @@
             </div>
 
             <div class="products">
-                <img src="img/imagine-wine-bottle/soave.jpeg" alt="Soave">
+                <img src="img/wine-table-traditional/soave.jpeg" alt="Soave">
                 <div class="bold-main-text">Soave</div>
                 <p class="price">12.00 USD</p>
                 <input type="button" value="Buy">
@@ -87,29 +92,30 @@
 
 
             <div class="products">
-                <img src="img/imagine-wine-bottle/zifandel.jpeg" alt="Zifandel">
+                <img src="img/wine-table-traditional/zifandel.jpeg" alt="Zifandel">
                 <div class="bold-main-text">Zifandel</div>
                 <p class="bold-number-text">14,00USD</p>
                 <input type="button" value="Buy">
             </div>
 
 
+
+            <form>
+                <p>
+                    <label for="quantityProductsOnPage">Products per page:</label>
+                    <select id="quantityProductsOnPage" name="">
+                        <option value="20" selected>20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                </p>
+                <span class="pagination-active-link ui-button ui-button--primary-light"
+                    data-pagination-page="1">1</span>
+
+
+
+            </form>
         </div>
-        <form>
-            <p>
-                <label for="quantityProductsOnPage">Products per page:</label>
-                <select id="quantityProductsOnPage" name="">
-                <option value="20" selected>20</option>
-                <option value="50">50</option>
-                <option value="100">100</option>
-                </select>
-            </p>
-            <span class="pagination-active-link ui-button ui-button--primary-light" data-pagination-page="1">1</span>
-
-
-
-        </form>
-
 
 
     </main>
