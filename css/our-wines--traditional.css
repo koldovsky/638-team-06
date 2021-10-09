@@ -202,3 +202,10 @@
     color: #000000;
     /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
 }
+
+.button-learn-more:hover {
+    font-family: "Rubik", "sans-serif";
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #000000;
+}
