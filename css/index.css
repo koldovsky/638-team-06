@@ -15,24 +15,25 @@ font-family: 'Rubik', sans-serif;
     font-size: 16px;
 }
 
-.decor-text {
+.decor-text-font {
     font-family: 'Great Vibes';
     color: #c8693a;
 }
 
-.h-dark-background {
+.h-dark-background-font {
     font-family: 'Prata';
     color: #ffffff;
 }
 
-.text-under-decor {
+.text-under-decor-font {
     font-family: 'Rubik', sans-serif;
     font-size: 1.125rem;
+    font-weight: normal;
     color: #ffffff;
 }
 
-.h-preference,
-.h-info-card {
+.h-preference-font,
+.h-info-card-font {
     font-size: 1.375rem;
     line-height: 1.5;
     font-family: Prata, serif;
@@ -40,7 +41,7 @@ font-family: 'Rubik', sans-serif;
     color: #ffffff;
 }
 
-.just-text {
+.just-text-font {
     font-family: 'Rubik', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
@@ -62,21 +63,21 @@ a {
     background-color: #261e1c;
 }
 
-.name-wine {
+.name-wine-font {
     font-family: "Rubik", "sans-serif";
     font-size: 1.25rem;
     font-weight: normal;
     color: #ffffff;
 }
 
-.price {
+.price-font {
     font-family: "Rubik", "sans-serif";
     font-size: 1.25rem;
     font-weight: bold;
     color: #ffffff;
 }
 
-.add-to-card {
+.add-to-card-button {
     font-family: "Rubik", "sans-serif";
     font-size: 0.9375rem;
     font-weight: 700;
@@ -89,7 +90,7 @@ a {
     font-size: 0.9375rem;
     font-weight: 700;
     color: #000000;
-    /* після додавання фонуколір змінити на #ffffff */
+    /* після додавання фону колір змінити на #ffffff */
 }
 
 .button-learn-more {
