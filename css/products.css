@@ -17,9 +17,31 @@
     font-size: 16px;
 }
 
+body {
+    background-color: rgb(200, 105, 58);
+}
 
-.block-bg {
-    background-color: #261e1c;
+.nav-bg {
+    color: black;
+    
+}
+
+.container {
+    color: rgba(230, 130, 7, 0.35);
+    max-width: 980px;
+    margin: auto;
+}
+
+
+
+.fixed-logo {
+    width: auto;
+    height:45px;
+}
+
+.fixed-menu {
+    height: 30px;
+    width: auto;
 }
 
 .products {
