@@ -1,0 +1,211 @@
+.orange-line {
+    height: 2px;
+    width: 10%;
+    max-width: 40px;
+    background-color: #c8693a;
+}
+
+.bottle-wine-special {
+    box-sizing: border-box;
+    height: 555px;
+    width: 370px;
+}
+
+
+/*
+.link-with-arrow {
+}
+*/
+
+
+
+
+.text-link-main {
+    font-size: 0.9375rem;
+    line-height: 1em;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* .anchor-on-page {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    height: 656px;
+    display: flex;
+    justify-content: space-around;
+
+} */
+
+@media (min-width: 320px) {
+
+    .our-special-wines-plus-cards {
+        padding: 0 24px 0;
+    }
+
+    .anchor-on-page {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .info-card {
+        height: 430px;
+    }
+
+    .anchor-on-page>section:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .decor-text {
+        font-size: 0.875rem;
+    }
+
+    .h-dark-background {
+        font-size: 2.125rem;
+    }
+}
+
+.special-events-card {
+    background: url(../img/our-wines--traditional/for-your-special-events.webp) no-repeat;
+    background-size: cover;
+}
+
+.organic-wines-card {
+    background: url(../img/our-wines--traditional/organic-wines.webp) no-repeat;
+    background-size: cover;
+}
+
+.grape-varieties-card {
+    background: url(../img/our-wines--traditional/selected-grape-varieties.webp) no-repeat;
+    background-size: cover;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.info-card>.orange-line,
+.info-card>.just-text {
+    margin-top: 15px;
+}
+
+.info-card>.link-with-arrow {
+    margin-top: 30px;
+}
+
+@media (min-width: 320px) {}
+
+.our-wines-special {
+    height: 980px;
+}
+
+.our-wines-special-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.bottle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column-center,
+.column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discover-our-wines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.title-our-wines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.assortment {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-vine-shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.assortment-bottle-image {
+    height: 227px;
+    width: 227px;
+}
+
+
+
+
+
+.in-vino-with-play-video {
+    display: flex;
+}
+
+.in-vino {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.play-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.play-img {
+    height: 70px;
+    width: 70px;
+}
+
+.play-text {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
+}
+
+.button-learn-more:hover {
+    font-family: "Rubik", "sans-serif";
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #000000;
+}
