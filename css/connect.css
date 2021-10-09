@@ -6,20 +6,20 @@
     text-align: center;
 }
 
-h2 .text-content {
+.text-content {
     font-family: 'Prata';
     text-align: center;
     color: #fff;
 }
 
-section .testimonials {
+.testimonials {
     background-color: #261e1c;
 }
 
-section .blog{
+.blog{
     background-color: #261e1c;
 }
 
-section .hq {
+.hq {
     background-color: #261e1c;
 }
