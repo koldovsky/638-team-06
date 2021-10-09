@@ -2,8 +2,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
 
+ header {
+     background-image: url(../img/header-section/background.jpg);
+     background-size: cover;
+     display: block;
+
+ }
+.header-logo > img {
+    display: block;
+    font-size: 16px;
+    width: 176px;
+    height: 44px;
+}
+div.menu {
+   font-family: Rubik, sans-serif;
+   font-size: 16px;
+   color: rgb(255, 255, 255);
+}
 .soc-icon > img  {
    width: 26px;
    height: 26px;
    padding: 5px;
+}
+.hero > h5 {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 14px; 
+    color: rgb(200, 105, 58);
+}
+.hero > h1 {
+    font-family: Prata, sans-serif;
+    font-size: 58px; 
+    color: rgb(255, 255, 255);
+}
+.hero > img{
+    height: 32px;
+}
+.hero > p {
+    font-family: Rubik, sans-serif;
+    font-size: 18px;  
+    color: rgb(255, 255, 255); 
 }
