@@ -8,6 +8,10 @@
      display: block;
      position: relative;
     }
+ header > nav {
+     display: block;
+     padding: 0 24px 0 24px;
+ }
 .header-logo > img {
     align-items: center;
     display: flex;
@@ -28,10 +32,18 @@ div.menu > a {
    
 }
 .soc-icon > img  {
-   width: 26px;
-   height: 26px;
+   border: 0.01em solid white;
+   border-radius: 2px;
+   background-color: white;
+   width: 12px;
+   height: 12px;
    padding: 5px;
    
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
 }
 .hero > h5 {
     font-family: "Great Vibes", sans-serif;
@@ -49,29 +61,45 @@ div.menu > a {
     max-width: 100%;
 }
 .hero > img{
+    display: block;
+    max-width: 100%;
     height: 32px;
-    
+    width: 272px;
 }
 .hero > p {
     font-family: Rubik, sans-serif;
     font-size: 18px;  
     color: rgb(255, 255, 255);  
 }
-div .shop-now > a  {
-    border-style: solid;
-    border-color: orange;
-    box-sizing: border-box;
+div .shop-now {
+    display: flex;
+    margin: 10px 10px 10px 10px;
     font-family: Rubik, sans-serif;
     font-size: 16.5px; 
-    color: rgb(255, 255, 255);
-    margin-top: 18px;
-    margin-bottom: 18px;
+    font-weight: bold;
 }
-div .learn-more > a {
-    border-style: solid;
-    border-color: white;
+div .shop-now > a  {
+    display: block;
+    padding: 18px 26px 18px 26px;
+    border:  solid orange;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: orange;
+    border-radius: 2px;
+}
+div .learn-more {
+    display: flex;
+    margin: 10px 10px 10px 10px;
     font-family: Rubik, sans-serif;
     font-size: 16.5px;
-    margin: auto;
+    font-weight: bold;
+    max-width: 100%;
+}   
+div .learn-more > a {
+    display: block;
+    padding: 18px 26px 18px 26px;
+    border: solid white;
     color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 2px;
 }
