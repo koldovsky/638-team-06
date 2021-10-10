@@ -6,39 +6,55 @@
      background-image: url(../img/header-section/background.jpg);
      background-size: cover;
      display: block;
-
- }
+     position: relative;
+    }
 .header-logo > img {
-    display: block;
-    font-size: 16px;
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 176px;
     height: 44px;
 }
-div.menu {
+div.menu > a {
    font-family: Rubik, sans-serif;
    font-size: 16px;
    color: rgb(255, 255, 255);
+   
 }
 .soc-icon > img  {
    width: 26px;
    height: 26px;
    padding: 5px;
+   
 }
 .hero > h5 {
     font-family: "Great Vibes", sans-serif;
     font-size: 14px; 
     color: rgb(200, 105, 58);
+    text-align: left;
 }
 .hero > h1 {
+    display: block;
     font-family: Prata, sans-serif;
     font-size: 58px; 
     color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    max-width: 100%;
 }
 .hero > img{
     height: 32px;
+    
 }
 .hero > p {
     font-family: Rubik, sans-serif;
     font-size: 18px;  
-    color: rgb(255, 255, 255); 
+    color: rgb(255, 255, 255);  
+}
+.hero > a{
+    font-family: Rubik, sans-serif;
+    font-size: 16.5px; 
+    color: rgb(255, 255, 255);
 }
