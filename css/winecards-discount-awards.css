@@ -6,11 +6,13 @@ font-family: 'Rubik', sans-serif; */
 
 .red-white-wines-row {
     display: flex;
+    justify-content: space-between;
 }
 
 .red-wines {
     background-image: url('../img/winecards-discount-awards/red-wines-taste.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .red-wines-title {
@@ -28,6 +30,7 @@ font-family: 'Rubik', sans-serif; */
 .white-wines {
     background-image: url('../img/winecards-discount-awards/white-wines-taste.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .white-wines-title {
@@ -48,31 +51,33 @@ font-family: 'Rubik', sans-serif; */
     font-weight: 700;
     color: #fff;
     text-decoration: none;
-
+    padding: 16px 25px;
     background-color: #c8693a;
 }
 
 /* discount section */
 
 .discount {
-
+    margin-top: 20px;
+    color: #fff;
 }
 
 .discount-block {
-    margin-top: 50px;
     background-color: #c8693a;
+    padding: 39px 33px;
 }
 
 .discount-title {
     font-size: 48px;
     font-weight: 400;
-    color: #fff;
+    margin-bottom: 39px;
 }
 
 .discount-subtitle {
+    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #fff;
+    margin-bottom: 39px;
 }
 
 .discount-btn {
@@ -81,7 +86,8 @@ font-family: 'Rubik', sans-serif; */
     font-weight: 700;
     color: #fff;
     text-decoration: none;
-    border: solid 2px #fff;
+    padding: 18px 26px;
+    border: solid 3px #fff;
 }
 
 /* countdown section */
@@ -89,6 +95,7 @@ font-family: 'Rubik', sans-serif; */
 .countdown-block {
     margin-top: 50px;
     background-color: #c8693a;
+    text-align: center;
 }
 
 .countdown-title {
@@ -100,6 +107,10 @@ font-family: 'Rubik', sans-serif; */
 .countdown-row {
     display: flex;
     color: #fff;
+}
+
+#countdown-row {
+    justify-content: space-around;
 }
 
 #days, #hours, #minutes, #seconds {
