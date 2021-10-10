@@ -17,6 +17,10 @@
     width: 176px;
     height: 44px;
 }
+div.menu {
+    display:flex;
+    flex-direction: column;
+}
 div.menu > a {
    font-family: Rubik, sans-serif;
    font-size: 16px;
@@ -53,8 +57,21 @@ div.menu > a {
     font-size: 18px;  
     color: rgb(255, 255, 255);  
 }
-.hero > a{
+div .shop-now > a  {
+    border-style: solid;
+    border-color: orange;
+    box-sizing: border-box;
     font-family: Rubik, sans-serif;
     font-size: 16.5px; 
+    color: rgb(255, 255, 255);
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+div .learn-more > a {
+    border-style: solid;
+    border-color: white;
+    font-family: Rubik, sans-serif;
+    font-size: 16.5px;
+    margin: auto;
     color: rgb(255, 255, 255);
 }
