@@ -11,20 +11,22 @@
     color: #fff; 
     font-family: 'Prata';
 }
-img.awards-logo{
+.awards-logo{
     object-position: 50% 50%;
 }
 
 .text-content {
     font-family: 'Rubik";
-    text-align: center;
     color: #fff;
+    color: #fff;
+    text-align: center;
 }
 
 div.reviews{
     font-family: 'Rubik";
-    color: rgb(137,128,130);
+    color: rgb(137, 128, 130);
     text-align: center;
+    color: rgb(137, 128, 130);
 }
 .testimonials {
     background-color: #261e1c;
