@@ -34,7 +34,7 @@ header > nav {
 }
 
 .hamburg-menu {
-    width: 26px;
+    width: 25px;
     height: auto;
 }
 
@@ -42,7 +42,7 @@ header nav .menu {
     display: flex;
     flex-direction: column;
     font-family: 'Rubik', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 500;
 }
 
@@ -50,12 +50,15 @@ header nav .menu {
     header nav .menu {
         flex: 1;
         flex-direction: row;
+        margin-right: 20px;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 
 
 header .social-icons {
-    width: 21px;
+        width: 20px;
     height: auto;
 }
 
