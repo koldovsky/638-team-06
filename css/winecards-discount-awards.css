@@ -145,6 +145,11 @@ font-family: 'Rubik', sans-serif; */
     color: #fff;
 }
 
+#countdown-row {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 #days, #hours, #minutes, #seconds {
     font-size: 36px;
@@ -162,16 +167,19 @@ small {
 .countdown-expire {
     font-size: 18px;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .get-deal-btn {
+    display: block;
+    border: 2px solid #c8693a;
+    padding: 14px 30px;
+    /* background-color: #c8693a; */
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
-
-    background-color: #c8693a;
 }
 
 /* awards section */
