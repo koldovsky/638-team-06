@@ -20,7 +20,8 @@ font-family: 'Rubik', sans-serif;
     color: #c8693a;
 }
 
-.h-dark-background-font {
+.h-dark-background-font,
+.h-image-background-font {
     font-family: 'Prata';
     color: #ffffff;
 }
@@ -85,17 +86,4 @@ a {
     background-color: #c8693a;
 }
 
-.button-buy-wines {
-    font-family: "Rubik", "sans-serif";
-    font-size: 0.9375rem;
-    font-weight: 700;
-    color: #000000;
-    /* після додавання фону колір змінити на #ffffff */
-}
 
-.button-learn-more {
-    font-family: "Rubik", "sans-serif";
-    font-size: 0.9375rem;
-    font-weight: 700;
-    color: #ffffff;
-}
