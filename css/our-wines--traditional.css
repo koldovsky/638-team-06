@@ -1,3 +1,8 @@
+.container{
+    min-width:980px ;
+    margin: ;
+}
+
 .orange-line {
   height: 2px;
   width: 10%;
@@ -97,7 +102,7 @@
     background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
   }
 
@@ -239,7 +244,7 @@
   background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
 }
 
