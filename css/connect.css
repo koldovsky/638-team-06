@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
 
-.testimonials{
+.testimonials {
     width: 400px;
 }
 .testimonials-header {
@@ -11,9 +11,11 @@
     flex-direction: column;
 }
 
-.blog-header{
+.blog-header {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    padding: 0px 15px 0px 15px;
 }
 .slogan {
     font-family: 'Great Vibes';
