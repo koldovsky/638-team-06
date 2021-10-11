@@ -4,42 +4,63 @@ font-family: 'Rubik', sans-serif; */
 
 /* red-white-wines section */
 
-.red-white-wines-row {
-    display: flex;
+
+
+.container {
+    background-color: #261e1c;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .red-wines {
-    background-image: url('../img/winecards-discount-awards/red-wines-taste.jpg');
+    background-image: url('/img/winecards-discount-awards/red-wines-taste.jpg');
     background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding: 120px 30px 0;
+    margin-bottom: 20px;
 }
 
 .red-wines-title {
     font-size: 32px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 40px;
 }
 
-.red-wines-about{
+.red-wines-about {
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 60px;
 }
 
 .white-wines {
     background-image: url('../img/winecards-discount-awards/white-wines-taste.jpg');
     background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding: 120px 30px 0;
+    margin-bottom: 20px;
 }
 
 .white-wines-title {
     font-size: 32px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 40px;
 }
 
 .white-wines-about {
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 60px;
 }
 
 .shop-wine-btn {
@@ -48,31 +69,53 @@ font-family: 'Rubik', sans-serif; */
     font-weight: 700;
     color: #fff;
     text-decoration: none;
-
+    padding: 16px 25px;
     background-color: #c8693a;
+}
+
+@media (min-width: 760px) {
+
+    .red-wines {
+        min-height: 300px;
+        padding: 80px 30px 0;
+    }
+
+    .white-wines {
+        min-height: 300px;
+        padding: 80px 30px 0;
+    }
+
+    .red-white-wines-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
 }
 
 /* discount section */
 
 .discount {
-
+    padding-top: 20px;
+    color: #fff;
 }
 
 .discount-block {
-    margin-top: 50px;
     background-color: #c8693a;
+    padding: 39px 33px;
 }
 
 .discount-title {
     font-size: 48px;
     font-weight: 400;
-    color: #fff;
+    margin-bottom: 39px;
 }
 
 .discount-subtitle {
+    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #fff;
+    margin-bottom: 39px;
 }
 
 .discount-btn {
@@ -81,14 +124,19 @@ font-family: 'Rubik', sans-serif; */
     font-weight: 700;
     color: #fff;
     text-decoration: none;
-    border: solid 2px #fff;
+    padding: 10px 30px;
+    border: solid 3px #fff;
 }
 
 /* countdown section */
 
+.countdown {
+    padding-top: 50px;
+}
+
 .countdown-block {
-    margin-top: 50px;
     background-color: #c8693a;
+    text-align: center;
 }
 
 .countdown-title {
@@ -97,10 +145,11 @@ font-family: 'Rubik', sans-serif; */
     color: #fff;
 }
 
-.countdown-row {
+#countdown-row {
     display: flex;
-    color: #fff;
+    justify-content: space-around;
 }
+
 
 #days, #hours, #minutes, #seconds {
     font-size: 36px;
@@ -118,69 +167,99 @@ small {
 .countdown-expire {
     font-size: 18px;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .get-deal-btn {
+    display: block;
+    border: 2px solid #c8693a;
+    padding: 14px 30px;
+    /* background-color: #c8693a; */
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
-
-    background-color: #c8693a;
 }
 
 /* awards section */
 
-.awards {
-    margin-top: 50px;
-}
-
 .awards-suptitle {
+    color: #c8693a;
     font-family: 'Great Vibes', cursive;
     font-size: 28px;
     font-weight: 400;
-    color: #c8693a;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
 
 .awards-title {
+    color: #fff;
     font-size: 48px;
     font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
+div .awards-decor {
+    text-align: center;
+    margin-bottom: 20px;
+}
 .awards-subtitle {
+    color: #fff;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: 400;
-}
-
-.awards-wrapper {
-}
-
-.awards-row {
-    display: flex;
-    padding-bottom: 10px;
-}
-
-.awards-row:last-child {
-    padding-bottom: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .awards-icon {
-    width: 144px;
-    height: 72px;
+    max-width: 500px;
+    display: block;
+    margin: auto;
 }
 
+
 .awards-nominee {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
     font-size: 18px;
+    margin-top: 50px;
 }
 
 .awards-year {
+    color: #fff;
     font-size: 22px;
     font-weight: 400;
+    margin-top: 40px;
 }
 
 .awards-about {
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: rgb(137, 128, 130);
+    margin-top: 40px;
+}
+
+@media (min-width: 760px) {
+    .awards-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .awards-icon {
+        width: 130px;
+        margin-right: 20px;
+    }
+
+    .awards-nominee {
+        margin-right: 20px;
+    }
+
+    .awards-year {
+        margin-right: 20px;
+    }
 }
