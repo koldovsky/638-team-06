@@ -11,30 +11,40 @@
     
 }
 
-body {
+main {
 
     background-color: #261e1c;
-    
+    padding: 25px;
+}
+
+.bold-number-text {
+    font-family: Rubik, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 16px;
+}
+
+.bold-main-text {
+    font-family: Rubik, sans-serif;
+    font-size: 1.05rem;
+    color: white;
+    margin-top: 8px;
 }
 
 header > nav {
     background-color: #1a1513;
-    padding: 5px;
+    padding: 25px;
 }
 
-.container {
-    
-}
+
+
 
 @media (min-width: 980px) {
     header > nav > .container{
         display: flex;
     }
     
-
-
-
-
 }
 
 .container {
@@ -50,25 +60,20 @@ main .block-bg {
 .fixed-logo {
     width: 150px;
     height: auto;
-    padding: 20px;
-    margin-right: 20px;
-    align-self: center;
+    align-items: center;
 
 }
 
 .burger-logo {
-    float: right;
+    
     width: 35px;
     height: auto;
-    padding: 20px;
-    align-self: center;
+    float: right;
+    align-items: center;    
     
 }
 
-.backet {
-    width: 50px;
-    height: auto;
-}
+
 
 header nav .menu {
     display: none;
@@ -76,13 +81,11 @@ header nav .menu {
     font-family: 'Rubik', sans-serif;
     font-size: 0.85rem;
     font-weight: 500;
+    margin-left: 10px;
 }
 
-header .social-icons {
+.social-icons {
     display: none;
-    flex-direction: row;
-    height: 26px;
-    width: auto;
 }
 
 #burger-checkbox {
@@ -93,6 +96,9 @@ header .social-icons {
     display: flex;
 }
 
+.social-icons:checked ~ .menu {
+    display: flex;
+}
 
 @media (min-width: 980px) {
     .burger-icon {
@@ -108,7 +114,7 @@ header .social-icons {
     margin-left: 100px;
     }
     
-    header .social-icons {
+    .social-icons {
     display: flex;
     flex: 1;
     width: 26px;
@@ -132,14 +138,76 @@ header nav .menu a:hover {
        
 }
 
+.backet {
+    width: 50px;
+    height: auto;
+    display: none;
+}
 
+.wine-image {
+    display: flex;
+    width: 270px;
+    height: auto;
+    margin-top: 24px;
+}
 
+.button {
+    padding: 0.25em 1.25em;
+    border: 0.15em solid #c8693a;
+    border-radius: 0.15em;
+    background-color: #c8693a;
+    font-family: Rubik, sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 24px;
+}
 
 
 .name-of-page {
     font-family: 'Prata', serif;
     font-size: 1.75rem;
     color: white;
+    margin-top: 16px;
+}
+
+.pagination-active-link {
+    margin-top: 24px;
+    color: white;
+    font-family: Rubik, sans-serif;
+    font-size: 1rem;
+    padding: 0.1em 0.4em;
+    border: 0.1em solid #c8693a;
+    border-radius: 0.15em;
+    background-color: #c8693a;
+    text-align: center;
+       
+}
+
+.text-page {
+    color: white;
+    font-family: Rubik, sans-serif;
+    font-size: 0.75rem;
+       
+}
+
+.pages {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#quantityProductsOnPage {
+    color: #1a1513;
+    background-color: white;
+    text-decoration: none;
+    border: 0.1em solid #1a1513;
+    border-radius: 0.15em;
+    margin-top: 16px;
+   
 }
 
 
