@@ -171,10 +171,10 @@ small {
 }
 
 .get-deal-btn {
-    display: block;
-    border: 2px solid #c8693a;
+    display: inline-block;
+    text-align: center;
     padding: 14px 30px;
-    /* background-color: #c8693a; */
+    background-color: #c8693a;
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -216,7 +216,7 @@ div .awards-decor {
 }
 
 .awards-icon {
-    max-width: 500px;
+    max-width: 340px;
     display: block;
     margin: auto;
 }
@@ -251,7 +251,7 @@ div .awards-decor {
     }
 
     .awards-icon {
-        width: 130px;
+        max-width: 130px;
         margin-right: 20px;
     }
 
