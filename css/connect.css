@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
 
+.testimonials{
+    width: 400px;
+}
 .testimonials-header {
     padding: 0px 15px 0px 15px;
     margin: 50px 0px 0px 0px;
@@ -7,9 +10,15 @@
     display: flex;
     flex-direction: column;
 }
+
+.blog-header{
+    display: flex;
+    flex-direction: column;
+}
 .slogan {
     font-family: 'Great Vibes';
     color: #c8693a;
+    font-size: 14px;
     
 }
 
@@ -17,6 +26,7 @@
     text-align: center;
     color: #fff; 
     font-family: 'Prata';
+    font-size: 34px;
 }
 .awards-logo{
     margin: auto;
@@ -25,6 +35,7 @@
 .text-content {
     font-family: 'Rubik';
     color: #fff;
+    font-size: 18px;
     
 }
 
