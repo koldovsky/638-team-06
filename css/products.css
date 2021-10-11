@@ -22,13 +22,17 @@ header > nav {
     padding: 5px;
 }
 
+.container {
+    
+}
+
 @media (min-width: 980px) {
     header > nav > .container{
         display: flex;
     }
-    header .social-icons {
-        display: none;
-    }
+    
+
+
 
 
 }
@@ -48,12 +52,17 @@ main .block-bg {
     height: auto;
     padding: 20px;
     margin-right: 20px;
+    align-self: center;
 
 }
 
 .burger-logo {
+    float: right;
     width: 35px;
     height: auto;
+    padding: 20px;
+    align-self: center;
+    
 }
 
 .backet {
@@ -62,7 +71,7 @@ main .block-bg {
 }
 
 header nav .menu {
-    display: flex;
+    display: none;
     flex-direction: column;
     font-family: 'Rubik', sans-serif;
     font-size: 0.85rem;
@@ -71,10 +80,17 @@ header nav .menu {
 
 header .social-icons {
     display: none;
+    flex-direction: row;
+    height: 26px;
+    width: auto;
 }
 
 #burger-checkbox {
     display: none;
+}
+
+#burger-checkbox:checked ~ .menu {
+    display: flex;
 }
 
 
@@ -82,20 +98,24 @@ header .social-icons {
     .burger-icon {
         display: none;
     }
-
+ 
     header nav .menu {
-        flex: 1;
-        flex-direction: row;
-        margin-right: 10px;
-        align-items: center;
-        justify-content: space-around;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
     }
+    
     header .social-icons {
-        display: inline;
-        width: 26px;
-        height: auto;
-        justify-content: space-around;
-        align-items: center;
+    display: flex;
+    flex: 1;
+    width: 26px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
         
     }
 }
