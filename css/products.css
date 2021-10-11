@@ -6,7 +6,7 @@
 }
 
 :root {
-    font-family: 'Rubik', sans-serif;
+    
     font-size: 16px;
     
 }
@@ -15,25 +15,51 @@ body {
     background-color: #261e1c;
 }
 
-.icon-menu {
-    width: auto;
-    height: 25px;
-}
-.fixed-logo {
-    width: 176px;
-    height: auto;
-
-}
-
 header > nav {
     background-color: #1a1513;
+    padding: 5px;
 }
 
-header .menu {
+@media (min-width: 980px) {
+    header > nav > .container{
+        display: flex;
+    }
+}
+
+.fixed-logo {
+    width: 150px;
+    height: auto;
+    padding: 20px;
+
+}
+
+.hamburg-menu {
+    width: 25px;
+    height: auto;
+}
+
+header nav .menu {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.85rem;
     font-weight: 500;
+}
+
+@media (min-width: 980px) {
+    header nav .menu {
+        flex: 1;
+        flex-direction: row;
+        margin-right: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+
+header .social-icons {
+        width: 20px;
+    height: auto;
 }
 
 header nav .menu a {
@@ -46,19 +72,9 @@ header nav .menu a:hover {
        
 }
 
-header .social-icons {
-    width: 45px;
-    height: auto;
-}
 
-div .social-box {
-    width: 45px;
-    height: auto;
-    border: 1.5px solid #c8693a;
-    
-    
 
-}
+
 
 .name-of-page {
     font-family: 'Prata', serif;
