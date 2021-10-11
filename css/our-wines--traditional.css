@@ -94,7 +94,7 @@
     height: 758px;
     padding-left: 24px;
     padding-right: 24px;
-    background-image: url("/img/our-wines--traditional/background-discover-our-wines.jpeg");
+    background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
@@ -236,7 +236,7 @@
   height: 758px;
   padding-left: 24px;
   padding-right: 24px;
-  background-image: url("/img/our-wines--traditional/background-discover-our-wines.jpeg");
+  background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
