@@ -4,45 +4,63 @@ font-family: 'Rubik', sans-serif; */
 
 /* red-white-wines section */
 
-.red-white-wines-row {
-    display: flex;
-    justify-content: space-between;
+
+
+.container {
+    background-color: #261e1c;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .red-wines {
-    background-image: url('../img/winecards-discount-awards/red-wines-taste.jpg');
+    background-image: url('/img/winecards-discount-awards/red-wines-taste.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    padding: 120px 30px 0;
+    margin-bottom: 20px;
 }
 
 .red-wines-title {
     font-size: 32px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 40px;
 }
 
-.red-wines-about{
+.red-wines-about {
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 60px;
 }
 
 .white-wines {
     background-image: url('../img/winecards-discount-awards/white-wines-taste.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    padding: 120px 30px 0;
+    margin-bottom: 20px;
 }
 
 .white-wines-title {
     font-size: 32px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 40px;
 }
 
 .white-wines-about {
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 60px;
 }
 
 .shop-wine-btn {
@@ -55,10 +73,30 @@ font-family: 'Rubik', sans-serif; */
     background-color: #c8693a;
 }
 
+@media (min-width: 760px) {
+
+    .red-wines {
+        min-height: 300px;
+        padding: 80px 30px 0;
+    }
+
+    .white-wines {
+        min-height: 300px;
+        padding: 80px 30px 0;
+    }
+
+    .red-white-wines-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}
+
 /* discount section */
 
 .discount {
-    margin-top: 20px;
+    padding-top: 20px;
     color: #fff;
 }
 
@@ -86,14 +124,17 @@ font-family: 'Rubik', sans-serif; */
     font-weight: 700;
     color: #fff;
     text-decoration: none;
-    padding: 18px 26px;
+    padding: 10px 30px;
     border: solid 3px #fff;
 }
 
 /* countdown section */
 
+.countdown {
+    padding-top: 50px;
+}
+
 .countdown-block {
-    margin-top: 50px;
     background-color: #c8693a;
     text-align: center;
 }
@@ -104,14 +145,6 @@ font-family: 'Rubik', sans-serif; */
     color: #fff;
 }
 
-.countdown-row {
-    display: flex;
-    color: #fff;
-}
-
-#countdown-row {
-    justify-content: space-around;
-}
 
 #days, #hours, #minutes, #seconds {
     font-size: 36px;
@@ -143,33 +176,30 @@ small {
 
 /* awards section */
 
-.awards {
-    margin-top: 50px;
-}
-
 .awards-suptitle {
     color: #c8693a;
     font-family: 'Great Vibes', cursive;
     font-size: 28px;
     font-weight: 400;
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
 
 .awards-title {
+    color: #fff;
     font-size: 48px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.awards-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+div .awards-decor {
+    text-align: center;
     margin-bottom: 20px;
 }
-
 .awards-subtitle {
+    color: #fff;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -177,27 +207,51 @@ small {
     margin-bottom: 20px;
 }
 
-.award-finewines {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 20px;
+.awards-icon {
+    max-width: 500px;
+    display: block;
+    margin: auto;
 }
 
-.awards-icon {
-    max-width: 144px;
-}
 
 .awards-nominee {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
     font-size: 18px;
+    margin-top: 50px;
 }
 
 .awards-year {
+    color: #fff;
     font-size: 22px;
     font-weight: 400;
+    margin-top: 40px;
 }
 
 .awards-about {
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: rgb(137, 128, 130);
+    margin-top: 40px;
+}
+
+@media (min-width: 760px) {
+    .awards-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .awards-icon {
+        width: 130px;
+        margin-right: 20px;
+    }
+
+    .awards-nominee {
+        margin-right: 20px;
+    }
+
+    .awards-year {
+        margin-right: 20px;
+    }
 }
