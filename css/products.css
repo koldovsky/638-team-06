@@ -19,6 +19,25 @@ main {
 }
 
 
+.main-text {
+    font-family: Rubik, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: rgba(215, 215, 215, 0.5);
+    text-decoration: none;
+}
+
+.name-of-article {
+    font-family: 'Prata', serif;
+    font-size: 1.05rem;
+    color: white;
+    margin-top: 16px;
+}
+
+footer {
+    background-color: rgb(27, 22, 19);
+    padding: 25px;
+}
 
 .bold-number-text {
     font-family: Rubik, sans-serif;
@@ -198,7 +217,7 @@ main .products > article {
     color: white;
     font-family: Rubik, sans-serif;
     font-size: 1rem;
-    padding: 0.1em 0.5em;
+    padding: 0.1em 0.65em;
     border: 0.1em solid #c8693a;
     border-radius: 0.15em;
     background-color: #c8693a;
@@ -220,6 +239,7 @@ main .products > article {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 72px;
 }
 
 #quantityProductsOnPage {
@@ -255,5 +275,22 @@ main .products > article {
     }
 }
 
+form .bottom-arrow {
+    width: 8px;
+    height: auto;
+    margin: 0px 8px 0px 8px;
+}
+
+.contacts-text {
+    max-width: 1024px;
+    margin: auto;
+}
+.orange-line {
+    background-color: #c8693a;
+    width: 22px;
+    height: 20px;
+
+}
 
 
+    
