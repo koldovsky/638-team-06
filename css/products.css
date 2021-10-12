@@ -29,7 +29,7 @@ main {
 
 .name-of-article {
     font-family: 'Prata', serif;
-    font-size: 1.05rem;
+    font-size: 1.25rem;
     color: white;
     margin-top: 16px;
 }
@@ -287,7 +287,7 @@ form .bottom-arrow {
 }
 .orange-line {
     background-color: #c8693a;
-    width: 100px;
+    width: 50px;
     height: 2.25px;
     margin: 8px 0px 8px 0px;
 
