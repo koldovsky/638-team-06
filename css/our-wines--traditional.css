@@ -1,6 +1,6 @@
-.container{
-    min-width:980px ;
-    margin: ;
+.container {
+  max-width: 980px;
+  margin: auto;
 }
 
 .orange-line {
@@ -104,6 +104,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    box-sizing: border-box;
   }
 
   .discover-our-wines > .h-image-background {
@@ -166,6 +167,7 @@
     padding-left: 24px;
     padding-right: 24px;
     width: 100%;
+    box-sizing: border-box;
   }
 
   .assortment {
@@ -254,8 +256,8 @@
   justify-content: flex-start;
 }
 
-.h-in-vino{
-    text-align: left;
+.h-in-vino {
+  text-align: left;
 }
 
 .play-video {
@@ -327,4 +329,3 @@
   border: 2px solid #ffffff;
   box-sizing: border-box;
 }
-
