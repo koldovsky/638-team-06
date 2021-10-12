@@ -44,7 +44,7 @@
 }
 .awards-logo {
     margin: auto;
-    width: 100%;
+    
 }
 
 .text-content {
@@ -79,19 +79,29 @@ div.reviews {
 .hq {
     background-color: #261e1c;
 }
+.illustratoin-wine {
+    width: 100%;
+}
 
-
+.accordion-button: :not(.collaped) {
+    background-color: #261e1c;
+}
 .accordion-header {
     color: #fff; 
     font-family: 'Prata';
     font-size: 22px;  
+    background-color: #261e1c;
 
 }
 .accordion-body {
     font-family: 'Rubik';
     color: #fff;
     font-size: 16px;
+    background-color: #261e1c;
 }
 .accordion-item: {
+    background-color: #261e1c;
+}
+/accordion > body {
     background-color: #261e1c;
 }
