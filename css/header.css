@@ -23,7 +23,6 @@
  }
 .header-logo > img {
     display: block;
-    max-width: 50%;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 176px;
@@ -48,7 +47,7 @@ div.menu > a {
    
 }
 div > .hero {
-    display: grid;
+    display: block;
     padding-top: 110px;
     padding-bottom: 130px;
     height: 320px;
@@ -69,11 +68,11 @@ div .content-hero{
     display: block;
     font-family: Prata, sans-serif;
     font-size: 58px; 
+    font-weight: 400;
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: left;
     margin-top: 20px;
-    max-width: 100%;
 }
 .content-hero > img{
     display: block;
@@ -92,7 +91,12 @@ div .content-hero{
 header div .buttons {
   display: block;
   margin-top: 35px;
+}
+@media (min-width: 345px) {
 
+    header div .buttons {
+        display: flex;
+    }
 }
 div .shop-now {
     display: flex;
@@ -101,14 +105,13 @@ div .shop-now {
     font-weight: bold;
 }
 div .shop-now > a  {
-    display: block;
     padding: 18px 26px 18px 26px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-right: 22px;
     border:  0.01em solid;
-    border-color: orange;
+    border-color: rgb(200, 105, 58);
     color: rgb(255, 255, 255);
-    text-align: center;
-    background-color: orange;
+    background-color: rgb(200, 105, 58);
     border-radius: 2px;
 }
 div .learn-more {
@@ -116,14 +119,11 @@ div .learn-more {
     font-family: Rubik, sans-serif;
     font-size: 16.5px;
     font-weight: bold;
-    max-width: 100%;
 }   
 div .learn-more > a {
-    display: block;
     padding: 18px 26px 18px 26px;
-    margin-top: 10px;
     border: solid white;
     color: rgb(255, 255, 255);
-    text-align: center;
     border-radius: 2px;
+    margin-bottom: 20px;
 }
