@@ -33,7 +33,7 @@ div.menu > a {
    
 }
 .soc-icon > img  {
-   border: 0.01em solid white;
+   border: 0.01em solid;
    border-radius: 2px;
    background-color: white;
    width: 12px;
@@ -90,7 +90,7 @@ div .shop-now {
 div .shop-now > a  {
     display: block;
     padding: 18px 26px 18px 26px;
-    border:  solid orange;
+    border:  solid;
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: orange;

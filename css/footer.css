@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
+
+.facts{
+    background-color: #261e1c;
+}
+
+h4{
+    color: #ffff;
+}
+
+.facts p{
+    color:#857b7d;
+}
+
+.facts img{
+    width: 54px;
+    height: 54px;
+}
+
+footer{
+    background-color: #1a1512;
+}
+
+.join-our{
+    color: #ffff;
+}
+
+.contact-us-p{
+    color:#857b7d;
+}
+
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.buttons-href a{
+    color:#857b7d;
+}
+
+.instagram-img img{
+    height: 185px;
+    width: 185px;
+}
+
+.contact-us{
+    text-align: center;
+}
