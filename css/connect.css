@@ -78,9 +78,9 @@ div.reviews {
 }
 
 @media (min-width: 750px) {
-    section .hq {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .left-column, .right-column {
+        display: flex;
+        flex-direction: row;
     }
 }
 .hq {
@@ -121,5 +121,15 @@ div.reviews {
     background-color: #261e1c;
 }
 .accordion > body {
+    background-color: #261e1c;
+}
+&:not(.collapsed) {
+    color: #fff;
+    background-color: #261e1c;
+}
+
+.container-connect {
+    max-width: 980px;
+    margin: auto;
     background-color: #261e1c;
 }
