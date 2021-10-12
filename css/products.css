@@ -287,10 +287,32 @@ form .bottom-arrow {
 }
 .orange-line {
     background-color: #c8693a;
-    width: 22px;
-    height: 20px;
+    width: 100px;
+    height: 2.25px;
+    margin: 8px 0px 8px 0px;
 
 }
 
+.info-on-bottom {
+    margin-top: 16px;
+}
 
-    
+.bottom-icons {
+    display: flex;
+} 
+
+.bot-icon {
+    width: 26px;
+    margin: 16px 10px 0px 0px;
+}
+
+
+
+@media (min-width: 800px) {
+    .contacts-text {
+    display: flex;
+    flex-direction: row;
+   }
+}
+        
+
