@@ -41,9 +41,10 @@
     color: #fff; 
     font-family: 'Prata';
     font-size: 34px;
+    margin-top: 25px;
 }
 .awards-logo {
-    margin: auto;
+    margin-top: 25px;
     
 }
 
@@ -76,13 +77,30 @@ div.reviews {
     color: #fff;
 }
 
+@media (min-width: 750px) {
+    section .hq {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 .hq {
     background-color: #261e1c;
 }
 .illustratoin-wine {
     width: 100%;
 }
+.left-column {
+    margin-top: 50px;
+    padding: 0px 15px 0px 15px;
+}
+.right-column {
+    margin-top: 50px;
+    padding: 0px 15px 0px 15px;
+}
 
+.accordion {
+    margin-top: 20px;
+}
 .accordion-button: :not(.collaped) {
     background-color: #261e1c;
 }
@@ -102,6 +120,6 @@ div.reviews {
 .accordion-item: {
     background-color: #261e1c;
 }
-/accordion > body {
+.accordion > body {
     background-color: #261e1c;
 }
