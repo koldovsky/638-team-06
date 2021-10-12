@@ -75,10 +75,15 @@ div.reviews {
     font-size: 24px;
     align-items: center;
     color: #fff;
+    display: flex;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    border: 1px;
 }
 
 @media (min-width: 750px) {
-    .left-column, .right-column {
+    .hq {
         display: flex;
         flex-direction: row;
     }
