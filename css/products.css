@@ -239,6 +239,7 @@ main .products > article {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 72px;
 }
 
 #quantityProductsOnPage {
@@ -283,12 +284,12 @@ form .bottom-arrow {
 .contacts-text {
     max-width: 1024px;
     margin: auto;
-
+}
 .orange-line {
     background-color: #c8693a;
     width: 22px;
     height: 20px;
-    
+
 }
 
 
