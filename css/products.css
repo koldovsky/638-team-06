@@ -110,11 +110,6 @@ header nav .menu {
     display: flex;
 }
 
-.social-icons:checked ~ .menu {
-    display: flex;
-   
-}
-
 @media (min-width: 800px) {
     .burger-icon {
         display: none;
@@ -200,15 +195,15 @@ main .products > article {
 }
 
 .pagination-active-link {
-    margin-top: 24px;
     color: white;
     font-family: Rubik, sans-serif;
     font-size: 1rem;
-    padding: 0.1em 0.4em;
+    padding: 0.1em 0.5em;
     border: 0.1em solid #c8693a;
     border-radius: 0.15em;
     background-color: #c8693a;
     text-align: center;
+   
        
 }
 
@@ -259,5 +254,6 @@ main .products > article {
         
     }
 }
+
 
 
