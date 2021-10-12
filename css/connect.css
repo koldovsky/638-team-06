@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
 
 .testimonials {
-    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding: 0px 24px 0px 24px;
 }
 .blog {
-    box-sizing: border-box; 
+    display: block;
+    position: relative;
+    padding: 0px 24px 0px 24px;
 }
 .hq {
     display: block;
     position: relative; 
+    padding: 0px 24px 0px 24px;
 }
 .testimonials-header {
     padding: 0px 15px 0px 15px;
@@ -39,6 +44,7 @@
 }
 .awards-logo {
     margin: auto;
+    width: 100%;
 }
 
 .text-content {
