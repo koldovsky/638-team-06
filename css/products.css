@@ -52,17 +52,18 @@ header > nav {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 1024px;
     margin: auto;
 }
 
 main .block-bg {
-    max-width: 980px;
+    max-width: 1024px;
     margin: auto;
 }
 
 .container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -71,8 +72,6 @@ main .block-bg {
     width: 150px;
     height: auto;
     
-    margin-right: 100px;
-
 }
 
 .burger-logo {
@@ -86,8 +85,7 @@ main .block-bg {
 .icon {
     width: 26px;
     margin-left: 10px;
-    
-    
+        
 }
 
 header nav .menu {
@@ -101,7 +99,7 @@ header nav .menu {
 
 .social-icons {
     display: none;
-    
+        
 }
 
 #burger-checkbox {
@@ -114,7 +112,7 @@ header nav .menu {
 
 .social-icons:checked ~ .menu {
     display: flex;
-
+   
 }
 
 @media (min-width: 800px) {
@@ -128,6 +126,7 @@ header nav .menu {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-left: 16%;
     
     }
     
@@ -135,7 +134,7 @@ header nav .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 16px;
         
     }
 }
@@ -152,17 +151,31 @@ header nav .menu a:hover {
        
 }
 
+.backet-position {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 25px;
+
+}
+
 .backet {
     width: 50px;
     height: auto;
-    display: none;
+       
+    z-index: 3;
+    
 }
 
 .wine-image {
     display: flex;
-    width: 270px;
+    width: 100%;
     height: auto;
-    margin-top: 24px;
+    
+}
+
+main .products > article {
+    margin-top: 36px;
 }
 
 .button {
@@ -221,9 +234,30 @@ header nav .menu a:hover {
     border: 0.1em solid #1a1513;
     border-radius: 0.15em;
     margin-top: 16px;
+    text-align: center;
    
 }
 
+@media (min-width: 500px) {
+    main .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 16px;
+    }
+}
 
+@media (min-width: 800px) {
+    main .products {
+        
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 980px) {
+    main .products {
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+}
 
 
