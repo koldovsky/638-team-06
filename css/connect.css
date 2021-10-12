@@ -79,3 +79,19 @@ div.reviews {
 .hq {
     background-color: #261e1c;
 }
+
+
+.accordion-header {
+    color: #fff; 
+    font-family: 'Prata';
+    font-size: 22px;  
+
+}
+.accordion-body {
+    font-family: 'Rubik';
+    color: #fff;
+    font-size: 16px;
+}
+.accordion-item: {
+    background-color: #261e1c;
+}
