@@ -125,7 +125,9 @@ div.reviews {
 .accordion-item: {
     background-color: #261e1c;
 }
-.accordion > body {
+
+.accordion-button {
+    color: #fff;
     background-color: #261e1c;
 }
 .accordion-button:not(.collapsed) {
