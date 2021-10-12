@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
 
 .testimonials {
-    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding: 0px 24px 0px 24px;
 }
 .blog {
-    box-sizing: border-box; 
+    display: block;
+    position: relative;
+    padding: 0px 24px 0px 24px;
 }
 .hq {
     display: block;
     position: relative; 
+    padding: 0px 24px 0px 24px;
 }
 .testimonials-header {
     padding: 0px 15px 0px 15px;
@@ -36,9 +41,11 @@
     color: #fff; 
     font-family: 'Prata';
     font-size: 34px;
+    margin-top: 25px;
 }
 .awards-logo {
-    margin: auto;
+    margin-top: 25px;
+    
 }
 
 .text-content {
@@ -68,8 +75,66 @@ div.reviews {
     font-size: 24px;
     align-items: center;
     color: #fff;
+    display: flex;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    border: 1px;
 }
 
+@media (min-width: 750px) {
+    .hq {
+        display: flex;
+        flex-direction: row;
+    }
+}
 .hq {
+    background-color: #261e1c;
+}
+.illustratoin-wine {
+    width: 100%;
+}
+.left-column {
+    margin-top: 50px;
+    padding: 0px 15px 0px 15px;
+}
+.right-column {
+    margin-top: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+.accordion {
+    margin-top: 20px;
+}
+.accordion-button: :not(.collaped) {
+    background-color: #261e1c;
+}
+.accordion-header {
+    color: #fff; 
+    font-family: 'Prata';
+    font-size: 22px;  
+    background-color: #261e1c;
+
+}
+.accordion-body {
+    font-family: 'Rubik';
+    color: #fff;
+    font-size: 16px;
+    background-color: #261e1c;
+}
+.accordion-item: {
+    background-color: #261e1c;
+}
+.accordion > body {
+    background-color: #261e1c;
+}
+&:not(.collapsed) {
+    color: #fff;
+    background-color: #261e1c;
+}
+
+.container-connect {
+    max-width: 980px;
+    margin: auto;
     background-color: #261e1c;
 }
