@@ -5,111 +5,121 @@
  header {
      background-image: url(../img/header-section/background.jpg);
      background-size: cover;
+     background-position: right;
      display: block;
-     position: relative;
     }
- header > nav {
+ div .container-header{
+        min-width: 320px;
+        max-width: 980px;
+    }
+header > nav .navbar {
+     display: block;
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+ .header-logo {
      display: flex;
-     justify-content: flex-end;
-     padding: 0 24px 0 24px;
+     padding-left: 24px;
  }
-.header-logo > img {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+ .header-logo > img {
+    display: block;
     width: 176px;
-    height: 44px;
 }
-div.menu {
-    display:flex;
-    flex-direction: column;
+ div .navbar-collapse {
+     display: flex;
+     padding-right: 24px;
+ }
+header div .menu > a {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
 }
-div.menu > a {
-   font-family: Rubik, sans-serif;
-   font-size: 16px;
-   color: rgb(255, 255, 255);
-   
+div .soc-icon > img {
+    border: 0.01em solid;
+    border-radius: 2px;
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    padding: 5px;
 }
-.soc-icon > img  {
-   border: 0.01em solid white;
-   border-radius: 2px;
-   background-color: white;
-   width: 12px;
-   height: 12px;
-   padding: 5px;
-   
+div > .hero {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 130px;
+    height: 320px;
 }
-.hero {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 60px;
+div .content-hero{
+    display: block;
+    padding-left: 24px;
+    padding-right: 24px;
 }
-.hero > h5 {
-    display: flex;
-    justify-content: flex-end;
+.content-hero > h5 {
+    display: block;
     font-family: "Great Vibes", sans-serif;
     font-size: 14px; 
     color: rgb(200, 105, 58);
     text-align: left;
 }
-.hero > h1 {
-    display: flex;
-    justify-content: flex-end;
+.content-hero > h1 {
+    display: block;
     font-family: Prata, sans-serif;
     font-size: 58px; 
+    font-weight: 400;
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: left;
-    max-width: 100%;
+    margin-top: 20px;
 }
-.hero > img{
-    align-items: flex-end;
-    display: flex;
-    justify-content: flex-end;
+.content-hero > img{
+    display: block;
+    margin-top: 35px;
     max-width: 100%;
     height: 32px;
-    width: 272px;
 }
-.hero > p {
-    display: flex;
-    justify-content: flex-end;
+.content-hero > p {
+    display: block;
     font-family: Rubik, sans-serif;
     font-size: 18px;  
-    color: rgb(255, 255, 255);  
+    color: rgb(255, 255, 255); 
+    margin-top: 20px;
+    text-align: left; 
+}
+header div .buttons {
+  display: block;
+  margin-top: 35px;
+}
+@media (min-width: 345px) {
+
+    header div .buttons {
+        display: flex;
+    }
 }
 div .shop-now {
     display: flex;
-    justify-content: flex-end;
-    margin: 10px 10px 10px 10px;
     font-family: Rubik, sans-serif;
     font-size: 16.5px; 
     font-weight: bold;
 }
 div .shop-now > a  {
-    display: block;
     padding: 18px 26px 18px 26px;
-    border:  solid orange;
+    margin-bottom: 20px;
+    margin-right: 22px;
+    border:  0.01em solid;
+    border-color: rgb(200, 105, 58);
     color: rgb(255, 255, 255);
-    text-align: center;
-    background-color: orange;
+    background-color: rgb(200, 105, 58);
     border-radius: 2px;
 }
 div .learn-more {
     display: flex;
-    justify-content: flex-end;
-    margin: 10px 10px 10px 10px;
     font-family: Rubik, sans-serif;
     font-size: 16.5px;
     font-weight: bold;
-    max-width: 100%;
 }   
 div .learn-more > a {
-    display: block;
     padding: 18px 26px 18px 26px;
     border: solid white;
     color: rgb(255, 255, 255);
-    text-align: center;
     border-radius: 2px;
+    margin-bottom: 20px;
 }

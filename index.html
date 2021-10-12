@@ -5,46 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link type="image/x-icon" href="img/wine-glass-favicon.png" rel="shortcut icon">
     <link rel="stylesheet" href="css/winecards-discount-awards.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/connect.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/our-wines--traditional.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Wine Store</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="header-logo">
-                <img src="img/header-section/logo-header.svg" alt="logo-header">
-            </div>
-            <div class="menu">
-                <a href="#Best-deals">Best deals</a>
-                <a href="#History">History</a>
-                <a href="#About-Us">About Us</a>
-                <a href="#Shop">Shop</a>
-                <a href="#Contact-Us">Contact Us</a>
+    <div class="container-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="header">
+                <div class="header-logo">
+                    <img src="img/header-section/logo-header.svg" alt="logo-header">
+                </div> 
+              <div class="collapse navbar-collapse" id="burger-menu">
+                <div class="menu">
+                  <a class="nav-link" href="#Best-deals">Best deals</a>
+                  <a class="nav-link" href="#History">History</a>
+                  <a class="nav-link" href="#About-Us">About Us</a>
+                  <a class="nav-link" href="#Shop">Shop</a>
+                  <a class="nav-link" href="#Contact-Us">Contact Us</a>
+                </div>
                 <div class="soc-icon">
                     <img src="img/header-section/facebook.png" alt="Icon Facebook">
                     <img src="img/header-section/instagram.png" alt="Icon Instagram">
                     <img src="img/header-section/youtube.png" alt="Icon Youtube">
                 </div>
+              </div>
             </div>
-        </nav>
+          </nav>
         <div class="hero">
+            <div class="content-hero">
             <h5><span class="taste our">Taste our</span></h5>
             <h1>Boutique Wines</h1>
             <img src="img/header-section/picture-grapes-block.svg" alt="logo-hero">
             <p class="tekst">Grown with love and respect for the California lands.</p>
+            <div class="buttons">
             <div class="shop-now">
-            <a href="#">Shop now</a>
+                <a href="#">Shop now</a>
             </div>
             <div class="learn-more">
-            <a href="#our-wines-special">Learn more</a>
+                <a href="#our-wines-special">Learn more</a>
+            </div>
+            </div>
             </div>
         </div>
+    </div>
     </header>
     <main>
         <!--START SVIATOSLAV-->
@@ -154,12 +166,15 @@
             <div>
                 <img src="img/decor.svg" alt="decor">
             </div>
-            <span class="text-under-decor-font text-under-decor-image-backgound">Find your ideal taste and flavor for any occasion.</span>
+            <span class="text-under-decor-font text-under-decor-image-backgound">Find your ideal taste and flavor
+                for
+                any occasion.</span>
             <div class="two-button">
                 <a class="button-buy-wines" href="#our-wines">Buy wines</a>
                 <a class="button-learn-more" href="#">Learn more</a>
             </div>
         </div>
+
         <!--END SVIATOSLAV-->
 
         <!--Kateryna-->
@@ -282,56 +297,57 @@
         <!--START SVIATOSLAV-->
         <div id="our-wines">
             <section class="title-our-wines">
-                <span class="decor-text">Craft wines</span>
-                <span class="h-dark-background">Our Wines</span>
+                <span class="decor-text-font">Craft wines</span>
+                <span class="h-dark-background-font">Our Wines</span>
                 <img src="img/decor.svg" alt="decor">
-                <span class="text-under-decor">Select your favorite wine and buy it in a couple of clicks.</span>
+                <span class="text-under-decor-font text-under-decor">Select your favorite wine and buy it in a couple of
+                    clicks.</span>
             </section>
             <div class="assortment">
-                <div class="card-vine-shop">
+                <div class="card-wine-shop">
                     <a href="pinot-noir.html">
                         <img class="assortment-bottle-image" src="img/imagine-wine-bottle/pinot-noir.jpeg"
                             alt="pinot noir">
                     </a>
-                    <span class="name-wine">Pinot noir</span>
-                    <p class="price">12.00 USD</p>
-                    <input class="add-to-card" type="button" value="Add to cart">
+                    <span class="name-wine-font">Pinot noir</span>
+                    <span class="price-font">12.00 USD</span>
+                    <input class="button-add-to-card" type="button" value="Add to cart">
                 </div>
 
-                <div class="card-vine-shop">
+                <div class="card-wine-shop">
                     <a href="riesling.html">
                         <img class="assortment-bottle-image" src="img/imagine-wine-bottle/riesling.jpeg" alt="riesling">
                     </a>
-                    <span class="name-wine">Riesling</span>
-                    <p class="price">16.00 USD</p>
-                    <input class="add-to-card" type="button" value="Add to cart">
+                    <span class="name-wine-font">Riesling</span>
+                    <span class="price-font">16.00 USD</span>
+                    <input class="button-add-to-card" type="button" value="Add to cart">
                 </div>
 
-                <div class="card-vine-shop">
+                <div class="card-wine-shop">
                     <a href="zifandel.html">
                         <img class="assortment-bottle-image" src="img/imagine-wine-bottle/zifandel.jpeg" alt="zifandel">
                     </a>
-                    <span class="name-wine">Zifandel</span>
-                    <p class="price">14.00 USD</p>
-                    <input class="add-to-card" type="button" value="Add to cart">
+                    <span class="name-wine-font">Zifandel</span>
+                    <span class="price-font">14.00 USD</span>
+                    <input class="button-add-to-card" type="button" value="Add to cart">
                 </div>
 
-                <div class="card-vine-shop">
+                <div class="card-wine-shop">
                     <a href="soave.html">
                         <img class="assortment-bottle-image" src="img/imagine-wine-bottle/soave.jpeg" alt="Soave">
                     </a>
-                    <span class="name-wine">Soave</span>
-                    <p class="price">12.00 USD</p>
-                    <input class="add-to-card" type="button" value="Add to cart">
+                    <span class="name-wine-font">Soave</span>
+                    <span class="price-font">12.00 USD</span>
+                    <input class="button-add-to-card" type="button" value="Add to cart">
                 </div>
             </div>
         </div>
         <div class="in-vino-with-play-video">
             <div class="in-vino">
-                <h3>History</h3>
-                <h2>In Vino Veritas</h2>
+                <span class="decor-text-font">History</span>
+                <span class="h-image-background-font h-image-background h-in-vino">In Vino Veritas</span>
                 <div><img src="img/decor.svg" alt="decor"></div>
-                <span class="just-text">Alcaeus, a famous Greek poet, said that the truth can be found in wine. Let's
+                <span class="just-text-in-vino-veritas-font">Alcaeus, a famous Greek poet, said that the truth can be found in wine. Let's
                     dive into the history
                     of the most famous wine varieties to see the truth about them.
                 </span>
@@ -410,9 +426,7 @@
                     </div>
                     <p class="countdown-expire">Deal Expires: December 31, 2021</p>
                 </div>
-                
                 <a href="#our-wines" class="get-deal-btn">Get deal</a>
-                
             </div>
         </section>
 
@@ -478,11 +492,11 @@
         <!-- Antonina start code-->
         <section class="testimonials">
             <div class="testimonials-header">
-            <p class="slogan">Testimonials</p>
-            <h1 class="title-connect">What Our Wine-Lovers Say</h1>
-            <img class="awards-logo" src="img/decor.svg" alt="Awards Logo">
-            <h2 class="text-content">Wine is a bottled poetry. Read some stories from our customers below.</h2>
-        </div>
+                <p class="slogan">Testimonials</p>
+                <h1 class="title-connect">What Our Wine-Lovers Say</h1>
+                <img class="awards-logo" src="img/decor.svg" alt="Awards Logo">
+                <h2 class="text-content">Wine is a bottled poetry. Read some stories from our customers below.</h2>
+            </div>
             <div class="slick-list">
                 <div class="reviews">
                     <p class="reviews">"I really like to please myself with good wine with a rich taste. Therefore, from
@@ -567,7 +581,7 @@
 
     <footer>
         <section class="join">
-            <div>
+            <div class="join-our">
                 <img src="img/footer-section/join.png">
                 <h3>Join Our Newsletter Now</h3>
                 <p class="join-text">Learn more about wines and our special offers with our weekly digests.</p>
@@ -578,42 +592,45 @@
             </div>
         </section>
         <section class="contact-us">
-            <div>
+            <div class="icons">
                 <h4>Contact Us</h4>
-                <p class="contact-us">caliwines@email.com<br>+1 (234) 567 89 00<br>1111 White Ln, St Helena, CA 94574
+                <p class="contact-us-p">caliwines@email.com<br>+1 (234) 567 89 00<br>1111 White Ln, St Helena, CA 94574
                 </p>
                 <img src="img/footer-section/twiter.png">
                 <img src="img/footer-section/youtube.png">
                 <img src="img/footer-section/facebook.png">
                 <img src="img/footer-section/instagram.png">
             </div>
-            <div>
-                <h4>Information</h4>
-                <a href="#">History</a><br>
-                <a href="#">About us</a><br>
-                <a href="#">Awards</a><br>
-                <a href="#">FAQ</a><br>
-            </div>
-            <div>
-                <h4>Shop</h4>
-                <a href="#">Best Deals</a><br>
-                <a href="#">All Wines</a><br>
-                <a href="#">Delivery Information</a><br>
-                <a href="#">Terms & Conditions</a><br>
-            </div>
-            <div>
-                <h4>Instagram</h4>
-                <img src="img/footer-section/propki.png">
-                <img src="img/footer-section/drink.png">
-                <img src="img/footer-section/grapewine.png"><br>
-                <img src="img/footer-section/wines.png">
-                <img src="img/footer-section/grape.png">
-                <img src="img/footer-section/bottle-wine.png">
-            </div>
-        </section>
+            
+            <section class="buttons-href">
+                <div>
+                    <h4>Information</h4>
+                    <a href="#">History</a><br>
+                    <a href="#">About us</a><br>
+                    <a href="#">Awards</a><br>
+                    <a href="#">FAQ</a><br>
+                </div>
+                <div>
+                    <h4>Shop</h4>
+                    <a href="#">Best Deals</a><br>
+                    <a href="#">All Wines</a><br>
+                    <a href="#">Delivery Information</a><br>
+                    <a href="#">Terms & Conditions</a><br>
+                </div>
+            </section>
+                <div class="instagram-img">
+                    <h4>Instagram</h4>
+                    <img src="img/footer-section/propki.png">
+                    <img src="img/footer-section/drink.png">
+                    <img src="img/footer-section/grapewine.png">
+                    <img src="img/footer-section/wines.png">
+                    <img src="img/footer-section/grape.png">
+                    <img src="img/footer-section/bottle-wine.png">
+                </div>
+            </section>
         <section class="end-footer">
             <div>
-                <p class="@">© Created by<a href="https://www.instagram.com/47_vanya/">©</a></p>
+                <p class="@">© Created by</p>
             </div>
             <div>
                 <p class="All-rights">All rights Reserved</p>
@@ -621,7 +638,7 @@
         </section>
     </footer>
     <!--Shcherba John end-code -->
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

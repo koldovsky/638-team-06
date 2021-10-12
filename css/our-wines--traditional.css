@@ -1,3 +1,8 @@
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
 .orange-line {
   height: 2px;
   width: 10%;
@@ -94,14 +99,31 @@
     height: 758px;
     padding-left: 24px;
     padding-right: 24px;
+    background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+  }
+
+  .discover-our-wines > .h-image-background {
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
 
   .text-under-decor-image-backgound {
     text-align: center;
+    margin-top: 40px;
   }
 
   .two-button {
     flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .button-learn-more {
+    margin-top: 25px;
   }
 }
 
@@ -140,6 +162,19 @@
 }
 
 @media (min-width: 320px) {
+  #our-wines {
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .assortment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* .our-wines-special {
@@ -153,7 +188,7 @@
 } */
 
 /*.row {
-     display: flex;
+    display: flex;
 } */
 
 /* .bottle {
@@ -174,10 +209,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/our-wines--traditional/background-discover-our-wines.jpeg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .two-button {
@@ -191,31 +222,42 @@
   align-items: center;
 }
 
-.assortment {
+/* .assortment {
   display: flex;
   justify-content: space-around;
-}
+} */
 
-.card-vine-shop {
+.card-wine-shop {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .assortment-bottle-image {
-  height: 227px;
-  width: 227px;
+  width: 100%;
 }
 
 .in-vino-with-play-video {
   display: flex;
+  flex-direction: column;
+  height: 758px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 .in-vino {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.h-in-vino {
+  text-align: left;
 }
 
 .play-video {
@@ -233,8 +275,7 @@
   line-height: 1.6;
   font-family: Rubik, sans-serif;
   font-weight: 400;
-  color: #000000;
-  /*color: #ffffff;  (коли буде фон то потрібно замінити)*/
+  color: #ffffff;
 }
 
 .button-learn-more:hover {
@@ -242,6 +283,20 @@
   font-size: 0.9375rem;
   font-weight: 700;
   color: #000000;
+}
+.button-add-to-card {
+  font-family: "Rubik", "sans-serif";
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #ffffff;
+  height: 46px;
+  width: 134px;
+  background-color: #c8693a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 2px;
 }
 
 .button-buy-wines {
