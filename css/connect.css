@@ -62,6 +62,9 @@ div.reviews {
     color: rgb(137, 128, 130);
     text-align: center;
     margin-top: 45px;
+    box-sizing: border-box;
+}
+.testimonials-reviews {
     height: 188px;
 }
 .carousel-indicators: {
