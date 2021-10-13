@@ -3,6 +3,7 @@
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
+  background: #261e1c;
 }
 
 .orange-line {
@@ -169,7 +170,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 992px) {
   .anchor-on-page {
     padding-top: 120px;
     padding-bottom: 60px;
@@ -232,7 +233,7 @@
   margin-top: 30px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
   .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -301,7 +302,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 992px) {
   #our-wines {
     padding-top: 110px;
     padding-bottom: 110px;
