@@ -37,7 +37,8 @@ small {
     margin-bottom: 20px;
 }
 
-.ccountdown-btn {
+.countdown-btn {
+    text-align: center;
 }
 
 .get-deal-btn {
@@ -46,6 +47,7 @@ small {
     font-size: 15px;
     font-weight: 700;
     color: #fff;
+    padding: 10px 30px;
     text-decoration: none;
     transition: 0.2s ease-in;
 }
