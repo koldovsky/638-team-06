@@ -87,9 +87,7 @@
   }
 
   .discover-our-wines {
-    height: 758px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 100px 24px;
     background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -97,6 +95,7 @@
     background-position: center;
     box-sizing: border-box;
   }
+
 
   .discover-our-wines > .h-image-background {
     margin-top: 25px;
@@ -108,14 +107,32 @@
     margin-top: 40px;
   }
 
-  .two-button {
-    flex-direction: column;
-    margin-top: 50px;
-  }
-
   .button-learn-more {
     margin-top: 25px;
   }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .two-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 400px) {
+  
+  .two-button {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 0;
+  }
+
+  .button-learn-more {
+    margin-top: 0;
+    margin-left: 30px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -152,10 +169,6 @@
   .our-wines-special {
     height: 980px;
   }
-}
-
-@media (width:992){
-
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -259,11 +272,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.two-button {
-  display: flex;
-  justify-content: center;
 }
 
 .title-our-wines {
