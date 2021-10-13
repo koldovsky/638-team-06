@@ -18,6 +18,12 @@ font-family: 'Rubik', sans-serif;
 /* body{
   background-color:#261e1c;
 } */
+
+.container-index {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .decor-text-font {
   font-family: "Great Vibes";
   color: #c8693a;
@@ -53,11 +59,11 @@ font-family: 'Rubik', sans-serif;
 }
 
 .just-text-in-vino-veritas-font {
-    font-family: "Rubik", sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #e2efe9;
-  }
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e2efe9;
+}
 
 .arrow {
   height: 24px;
@@ -95,4 +101,3 @@ a {
   color: #ffffff;
   background-color: #c8693a;
 }
-
