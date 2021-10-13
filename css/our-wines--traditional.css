@@ -1,6 +1,8 @@
-.container {
+.container-our-wines--traditional {
+  min-width: 320px;
   max-width: 1024px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .orange-line {
