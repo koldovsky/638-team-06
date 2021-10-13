@@ -62,13 +62,9 @@ div.reviews {
     color: rgb(137, 128, 130);
     text-align: center;
     margin-top: 45px;
-   
-}
-.testimonials-reviews {
     height: 188px;
-    font-family: 'Rubik';
-    color: rgb(137, 128, 130);
 }
+
 .carousel-indicators: {
     margin-top: 20px;
 }

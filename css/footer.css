@@ -3,6 +3,7 @@
 
 .facts{
     background-color: #261e1c;
+    padding-left: 30px;
 }
 
 h4{
@@ -14,16 +15,37 @@ h4{
 }
 
 .facts img{
-    width: 54px;
-    height: 54px;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.facts-line{
+    height: 2px;
+    width: 15%;
+    max-width: 50px;
+    background-color: #c8693a;
+}
+
+#facts-text{
+    padding-top: 20px;   
 }
 
 footer{
     background-color: #1a1512;
 }
 
-.join-our{
-    color: #ffff;
+.join {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.join-our h3{
+    color: white;
+}
+
+.join-our p{
+    color: white;
 }
 
 .contact-us-p{
@@ -40,10 +62,26 @@ footer{
 }
 
 .instagram-img img{
-    height: 185px;
-    width: 185px;
+    height: 100px;
+    width: 100px;
 }
 
 .contact-us{
     text-align: center;
+}
+
+.contact-line{
+    height: 2px;
+    width: 15%;
+    max-width: 50px;
+    background-color: #c8693a;
+    margin: auto;
+}
+
+#contact-info{
+    padding-top: 20px;
+}
+
+.buttons-href h4{
+    padding-top: 20px;
 }
