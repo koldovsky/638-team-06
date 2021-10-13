@@ -64,6 +64,9 @@ div.reviews {
     margin-top: 45px;
     height: 188px;
 }
+.carousel-indicators: {
+    margin-top: 20px;
+}
 .testimonials {
     background-color: #261e1c;
     padding: 50px 24px 50px 24px;
