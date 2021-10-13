@@ -52,7 +52,7 @@
     font-family: 'Rubik';
     color: #fff;
     font-size: 18px;
-    
+    margin-top: 20px;
 }
 
 div.reviews {
@@ -63,12 +63,12 @@ div.reviews {
 }
 .testimonials {
     background-color: #261e1c;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 24px 50px 24px;
 }
 
 .blog {
     background-color: #261e1c;
-    padding: 50px 0px 60px 0px;
+    padding: 50px 24px 60px 24px;
 }
 .text-post {
     font-family: 'Rubik';
@@ -90,6 +90,8 @@ div.reviews {
 }
 .hq {
     background-color: #261e1c;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .illustratoin-wine {
     width: 100%;
@@ -106,9 +108,7 @@ div.reviews {
 .accordion {
     margin-top: 20px;
 }
-.accordion-button: :not(.collaped) {
-    background-color: #261e1c;
-}
+
 .accordion-header {
     color: #fff; 
     font-family: 'Prata';
@@ -125,10 +125,12 @@ div.reviews {
 .accordion-item: {
     background-color: #261e1c;
 }
-.accordion > body {
+
+.accordion-button {
+    color: #fff;
     background-color: #261e1c;
 }
-&:not(.collapsed) {
+.accordion-button:not(.collapsed) {
     color: #fff;
     background-color: #261e1c;
 }
