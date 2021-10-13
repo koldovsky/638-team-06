@@ -42,6 +42,7 @@
     font-family: 'Prata';
     font-size: 34px;
     margin-top: 25px;
+    text-align: center;
 }
 .awards-logo {
     margin-top: 25px;
@@ -53,6 +54,7 @@
     color: #fff;
     font-size: 18px;
     margin-top: 20px;
+    text-align: center;
 }
 
 div.reviews {
@@ -129,10 +131,12 @@ div.reviews {
 .accordion-button {
     color: #fff;
     background-color: #261e1c;
+    font-size: 22px;
 }
 .accordion-button:not(.collapsed) {
     color: #fff;
     background-color: #261e1c;
+    font-size: 22px;
 }
 
 .container-connect {
