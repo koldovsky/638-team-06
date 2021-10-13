@@ -1,0 +1,56 @@
+.countdown-block {
+    background-color: #c8693a;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.countdown-title {
+    font-family: 'Prata', serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+}
+
+#countdown-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#days, #hours, #minutes, #seconds {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+small {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    opacity: .50;
+}
+
+.countdown-expire {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.ccountdown-btn {
+}
+
+.get-deal-btn {
+    background-color: #c8693a;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+
+.get-deal-btn:hover {
+    background-color: #fff;
+    color: #c8693a;
+}

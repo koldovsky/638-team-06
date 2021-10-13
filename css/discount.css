@@ -1,0 +1,36 @@
+.discount {
+    color: #fff;
+}
+
+.discount-block {
+    background-color: #c8693a;
+    padding: 39px 33px;
+}
+
+.discount-title {
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.discount-subtitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.discount-btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16.5px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: solid 3px #fff;
+    transition: 0.2s ease-in;
+}
+
+.discount-btn:hover {
+    background-color: #fff;
+    color: #c8693a;
+}
