@@ -66,6 +66,8 @@ div.reviews {
 }
 .testimonials-reviews {
     height: 188px;
+    font-family: 'Rubik';
+    color: rgb(137, 128, 130);
 }
 .carousel-indicators: {
     margin-top: 20px;
