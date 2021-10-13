@@ -128,21 +128,21 @@
     padding-top: 105px;
     padding-bottom: 60px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     column-gap: 30px;
     row-gap: 30px;
   }
 
   .special-events-card {
-    grid-area: 1/1/2/3;
+    grid-area: 1/1/2/7;
   }
   .organic-wines-card {
-    grid-area: 1/3/2/5;
+    grid-area: 1/7/2/13;
   }
 
   .grape-varieties-card {
-    grid-area: 2/2/3/4;
+    grid-area: 2/4/3/10;
   }
 
   .info-card {
@@ -163,9 +163,19 @@
     padding-top: 120px;
     padding-bottom: 60px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 24px;
+  }
+  .special-events-card {
+    grid-area: 1/1/2/5;
+  }
+  .organic-wines-card {
+    grid-area: 1/5/2/9;
+  }
+
+  .grape-varieties-card {
+    grid-area: 1/9/2/13;
   }
 }
 
