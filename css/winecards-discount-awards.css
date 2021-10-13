@@ -11,194 +11,19 @@ font-family: 'Rubik', sans-serif; */
     max-width: 980px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.red-wines {
-    background-image: url('/img/winecards-discount-awards/red-wines-taste.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 400px;
-    padding: 120px 30px 0;
-    margin-bottom: 20px;
-}
 
-.red-wines-title {
-    font-size: 32px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 40px;
-}
-
-.red-wines-about {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 60px;
-}
-
-.white-wines {
-    background-image: url('../img/winecards-discount-awards/white-wines-taste.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 400px;
-    padding: 120px 30px 0;
-    margin-bottom: 20px;
-}
-
-.white-wines-title {
-    font-size: 32px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 40px;
-}
-
-.white-wines-about {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 60px;
-}
-
-.shop-wine-btn {
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-    padding: 16px 25px;
-    background-color: #c8693a;
-    transition: 0.2s ease-in;
-}
-
-.shop-wine-btn:hover {
-    background-color: #fff;
-    color: #c8693a;
-}
-
-@media (min-width: 760px) {
-
-    .red-wines {
-        min-height: 300px;
-        padding: 80px 30px 0;
-    }
-
-    .white-wines {
-        min-height: 300px;
-        padding: 80px 30px 0;
-    }
-
-    .red-white-wines-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-    }
-}
 
 /* discount section */
 
-.discount {
-    padding-top: 20px;
-    color: #fff;
-}
 
-.discount-block {
-    background-color: #c8693a;
-    padding: 39px 33px;
-}
-
-.discount-title {
-    font-size: 48px;
-    font-weight: 400;
-    margin-bottom: 39px;
-}
-
-.discount-subtitle {
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 39px;
-}
-
-.discount-btn {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16.5px;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 30px;
-    border: solid 3px #fff;
-    transition: 0.2s ease-in;
-}
-
-.discount-btn:hover {
-    background-color: #fff;
-    color: #c8693a;
-}
 
 /* countdown section */
 
-.countdown {
-    padding-top: 50px;
-}
 
-.countdown-block {
-    background-color: #c8693a;
-    text-align: center;
-}
-
-.countdown-title {
-    font-size: 48px;
-    font-weight: 400;
-    color: #fff;
-}
-
-#countdown-row {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-#days, #hours, #minutes, #seconds {
-    font-size: 36px;
-    font-weight: 400;
-    color: #fff;
-}
-
-small {
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    opacity: .50;
-}
-
-.countdown-expire {
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.get-deal-btn {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 30px;
-    background-color: #c8693a;
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.2s ease-in;
-}
-
-.get-deal-btn:hover {
-    background-color: #fff;
-    color: #c8693a;
-}
 
 /* awards section */
 
@@ -212,7 +37,8 @@ small {
     padding-top: 50px;
 }
 
-.awards-title {
+.awards-title {    
+    font-family: 'Prata', serif;
     color: #fff;
     font-size: 48px;
     font-weight: 400;
@@ -247,7 +73,8 @@ div .awards-decor {
     margin-top: 50px;
 }
 
-.awards-year {
+.awards-year {    
+    font-family: 'Prata', serif;
     color: #fff;
     font-size: 22px;
     font-weight: 400;
@@ -263,8 +90,8 @@ div .awards-decor {
 
 @media (min-width: 760px) {
     .awards-row {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr 6fr;
         align-items: center;
     }
 
@@ -275,9 +102,11 @@ div .awards-decor {
 
     .awards-nominee {
         margin-right: 20px;
+        margin-top: 20px;
     }
 
     .awards-year {
         margin-right: 20px;
+        margin-top: 10px;
     }
 }

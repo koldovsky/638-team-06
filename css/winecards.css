@@ -1,0 +1,87 @@
+.red-white-wines-row {
+    padding: 10px 0;
+}
+
+.red-wines {
+    background-image: url('/img/winecards-discount-awards/red-wines-taste.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding: 120px 30px 0;
+}
+
+.red-wines-title {
+    font-family: 'Prata', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.red-wines-about {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.white-wines {
+    background-image: url('../img/winecards-discount-awards/white-wines-taste.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding: 120px 30px 0;
+}
+
+.white-wines-title {
+    font-family: 'Prata', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.white-wines-about {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.shop-wine-btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 25px;
+    background-color: #c8693a;
+    transition: 0.2s ease-in;
+}
+
+.shop-wine-btn:hover {
+    background-color: #fff;
+    color: #c8693a;
+}
+
+@media (min-width: 760px) {
+
+    .red-wines {
+        min-height: 300px;
+        padding: 80px 30px 0;
+    }
+
+    .white-wines {
+        min-height: 300px;
+        padding: 80px 30px 0;
+    }
+
+    .red-white-wines-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}

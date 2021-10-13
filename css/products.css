@@ -284,6 +284,8 @@ form .bottom-arrow {
 .contacts-text {
     max-width: 1024px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .orange-line {
     background-color: #c8693a;
@@ -297,6 +299,7 @@ form .bottom-arrow {
     margin-top: 16px;
 }
 
+
 .bottom-icons {
     display: flex;
 } 
@@ -306,6 +309,24 @@ form .bottom-arrow {
     margin: 16px 10px 0px 0px;
 }
 
+.container-with-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.bottom-footer {
+    background-color: #1a1513;
+    padding: 25px;
+}
+
+.bottom-text {
+    font-family: Rubik, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
 
 
 @media (min-width: 800px) {
