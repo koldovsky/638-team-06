@@ -61,7 +61,8 @@ div.reviews {
     font-family: 'Rubik';
     color: rgb(137, 128, 130);
     text-align: center;
-    
+    margin-top: 45px;
+    height: 188px;
 }
 .testimonials {
     background-color: #261e1c;
