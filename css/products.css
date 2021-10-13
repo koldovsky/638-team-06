@@ -151,6 +151,11 @@ header nav .menu {
     margin-left: 16px;
         
     }
+
+    .bottom-footer {
+    display: flex;
+    justify-content: space-between;
+}
 }
 
 
@@ -284,9 +289,17 @@ form .bottom-arrow {
 .contacts-text {
     max-width: 1024px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
 }
+
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+          
+    
+}
+
+
+
 .orange-line {
     background-color: #c8693a;
     width: 50px;
@@ -294,6 +307,15 @@ form .bottom-arrow {
     margin: 8px 0px 8px 0px;
 
 }
+
+.insta-pic {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+
 
 .info-on-bottom {
     margin-top: 16px;
@@ -306,18 +328,48 @@ form .bottom-arrow {
 
 .bot-icon {
     width: 26px;
-    margin: 16px 10px 0px 0px;
+    margin: 32px 10px 0px 0px;
+}
+
+
+
+.main-bottom-footer {
+    background-color: rgb(19, 15, 14);
+    padding: 25px;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+
+footer .contacts-text > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+
+}
+
+
+.bottom-footer {
+    max-width: 1024px;
+    margin: auto;
 }
 
 .container-with-photos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-.bottom-footer {
-    background-color: #1a1513;
-    padding: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
 }
 
 .bottom-text {
@@ -329,11 +381,54 @@ form .bottom-arrow {
 }
 
 
+@media (min-width: 700px) {
+    .container-with-photos {
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .contacts-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        justify-content: space-between;
+    }
+    footer .contacts-text > article {
+        align-items: flex-start;
+    }
+    .bottom-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    
+}
+
 @media (min-width: 800px) {
     .contacts-text {
-    display: flex;
-    flex-direction: row;
-   }
-}
+    grid-template-columns: 4fr 3fr 3fr 4fr;
+    grid-column-gap: 20px;
         
+   }
+
+}
+
+
+
+@media (min-width: 800px) {
+    .container-with-photos {
+        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+footer .contacts-text a:hover {
+    font-weight: bold;
+    color: #c8693a;
+       
+}
+
 
