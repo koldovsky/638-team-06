@@ -9,15 +9,25 @@
      display: block;
      min-width: 320px;
 }
-nav .navigation-menu-header {
-display: flex;
+
+div .header {
+display: block;
 justify-content: space-between;
+align-content: space-between;
 }
 
- .header-logo > img {
+div .content-header {
+    display: flex;
+    padding-top: 22px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+}
+
+.header-logo > img {
     display: block;
     width: 176px;
-    padding-left: 24px;
 }
 
 header div .menu > a {
@@ -33,14 +43,11 @@ div .soc-icon > img {
     height: 12px;
     padding: 5px;
 }
-div > .hero {
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 130px;
-    height: 320px;
-}
+
 div .content-hero{
     display: block;
+    padding-top: 110px;
+    padding-bottom: 130px;
     padding-left: 24px;
     padding-right: 24px;
 }
