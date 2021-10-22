@@ -7,28 +7,29 @@
      background-size: cover;
      background-position: right;
      display: block;
-    }
- div .container-header{
-        min-width: 320px;
-        max-width: 980px;
-    }
-header > nav .navbar {
-     display: block;
-     padding-top: 30px;
-     padding-bottom: 30px;
+     min-width: 320px;
 }
- .header-logo {
-     display: flex;
-     padding-left: 24px;
- }
- .header-logo > img {
+
+div .header {
+display: block;
+justify-content: space-between;
+align-content: space-between;
+}
+
+div .content-header {
+    display: flex;
+    padding-top: 22px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+}
+
+.header-logo > img {
     display: block;
     width: 176px;
 }
- div .navbar-collapse {
-     display: flex;
-     padding-right: 24px;
- }
+
 header div .menu > a {
     font-family: Rubik, sans-serif;
     font-size: 16px;
@@ -42,14 +43,11 @@ div .soc-icon > img {
     height: 12px;
     padding: 5px;
 }
-div > .hero {
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 130px;
-    height: 320px;
-}
+
 div .content-hero{
     display: block;
+    padding-top: 110px;
+    padding-bottom: 130px;
     padding-left: 24px;
     padding-right: 24px;
 }
