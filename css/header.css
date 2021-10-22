@@ -7,28 +7,19 @@
      background-size: cover;
      background-position: right;
      display: block;
-    }
- div .container-header{
-        min-width: 320px;
-        max-width: 980px;
-    }
-header > nav .navbar {
-     display: block;
-     padding-top: 30px;
-     padding-bottom: 30px;
+     min-width: 320px;
 }
- .header-logo {
-     display: flex;
-     padding-left: 24px;
- }
+nav .navigation-menu-header {
+display: flex;
+justify-content: space-between;
+}
+
  .header-logo > img {
     display: block;
     width: 176px;
+    padding-left: 24px;
 }
- div .navbar-collapse {
-     display: flex;
-     padding-right: 24px;
- }
+
 header div .menu > a {
     font-family: Rubik, sans-serif;
     font-size: 16px;
