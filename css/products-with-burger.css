@@ -9,6 +9,11 @@
     
     font-size: 16px;
     scroll-behavior: smooth;
+    --main-color: #261e1c;
+    --accent-header-color: #1a1513;
+    --accent-footer-color: rgb(27, 22, 19);
+    --accent-decor-color: #c8693a;
+    --accent-dark-color: rgb(19, 15, 14);
     
 }
 
@@ -18,7 +23,7 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: #1a1513;
+    background-color: var(--accent-header-color);
 }
 
 .header-container {
@@ -46,7 +51,7 @@
 
 main {
 
-    background-color: #261e1c;
+    background-color: var(--main-color);
     padding: 25px;
 }
 
@@ -63,11 +68,19 @@ main {
     font-family: 'Prata', serif;
     font-size: 1.25rem;
     color: white;
+    margin-top: 50px;
+}
+
+.name-of-article-first {
+    font-family: 'Prata', serif;
+    font-size: 1.25rem;
+    color: white;
     margin-top: 16px;
 }
 
+
 footer {
-    background-color: rgb(27, 22, 19);
+    background-color: var(--accent-footer-color);
     padding: 25px;
 }
 
@@ -168,7 +181,7 @@ body._lock {
         height: 10%;
         width: 100%;
         transition: all 0.3s ease 0s;
-        background-color: #c8693a;
+        background-color: var(--accent-decor-color);
     }
     .menu-icon::before,
     .menu-icon::after {
@@ -218,7 +231,8 @@ body._lock {
         left: -100%;
         width: 100%;
         height: 100%;
-        background-color: rgba(27, 22, 19, 0.95);
+        background-color: var(--accent-footer-color);
+        opacity: 0.95;
         padding: 100px 0px 0px 0px;
         transition: left 0.3s ease 0s;
         overflow: auto;
@@ -237,7 +251,7 @@ body._lock {
         top: 0;
         left: 0;
         height: 87.5px;
-        background-color: #1a1513;
+        background-color: var(--accent-header-color);
         
     }
 
@@ -308,7 +322,7 @@ header .menu a {
 }
 
 header .menu a:hover {
-    color: #c8693a;
+    color: var(--accent-decor-color);
        
 }
 
@@ -341,9 +355,9 @@ main .products > article {
 
 .button {
     padding: 0.25em 1.25em;
-    border: 0.15em solid #c8693a;
+    border: 0.15em solid var(--accent-decor-color);
     border-radius: 0.15em;
-    background-color: #c8693a;
+    background-color: var(--accent-decor-color);
     font-family: Rubik, sans-serif;
     font-size: 1rem;
     color: white;
@@ -352,6 +366,11 @@ main .products > article {
     margin-top: 24px;
 }
 
+.button:hover {
+    color: var(--accent-decor-color);
+    background-color: transparent;
+    cursor: pointer;
+}
 
 .name-of-page {
     font-family: 'Prata', serif;
@@ -365,9 +384,9 @@ main .products > article {
     font-family: Rubik, sans-serif;
     font-size: 1rem;
     padding: 0.1em 0.65em;
-    border: 0.1em solid #c8693a;
+    border: 0.1em solid var(--accent-decor-color);
     border-radius: 0.15em;
-    background-color: #c8693a;
+    background-color: var(--accent-decor-color);
     text-align: center;
    
        
@@ -390,10 +409,10 @@ main .products > article {
 }
 
 #quantityProductsOnPage {
-    color: #1a1513;
+    color: var(--accent-header-color);
     background-color: white;
     text-decoration: none;
-    border: 0.1em solid #1a1513;
+    border: 0.1em solid var(--accent-header-color);
     border-radius: 0.15em;
     margin-top: 16px;
     text-align: center;
@@ -422,10 +441,17 @@ main .products > article {
     }
 }
 
+
+form .bottom-number-of-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 form .bottom-arrow {
-    width: 8px;
+    width: 12px;
     height: auto;
-    margin: 0px 8px 0px 8px;
+    margin: 0px 16px 0px 16px;
 }
 
 .contacts-text {
@@ -443,7 +469,7 @@ form .bottom-arrow {
 
 
 .orange-line {
-    background-color: #c8693a;
+    background-color: var(--accent-decor-color);
     width: 50px;
     height: 2.25px;
     margin: 8px 0px 8px 0px;
@@ -476,7 +502,7 @@ form .bottom-arrow {
 
 
 .main-bottom-footer {
-    background-color: rgb(19, 15, 14);
+    background-color: var(--accent-dark-color);
     padding: 25px;
 }
 
@@ -544,7 +570,10 @@ footer .contacts-text > article {
         flex-direction: row;
         justify-content: space-between;
     }
-    
+    .name-of-article {
+        margin-top: 16px;
+    }
+
     
 }
 
@@ -568,7 +597,7 @@ footer .contacts-text > article {
 }
 
 footer .contacts-text a:hover {
-    color: #c8693a;
+    color: var(--accent-decor-color);
        
 }
 
