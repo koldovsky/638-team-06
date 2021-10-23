@@ -42,7 +42,6 @@
     font-family: 'Prata';
     font-size: 34px;
     margin-top: 25px;
-    text-align: center;
 }
 .awards-logo {
     margin-top: 25px;
@@ -65,7 +64,7 @@ div.reviews {
     height: 188px;
 }
 
-.carousel-indicators: {
+.carousel-indicators {
     margin-top: 20px;
 }
 .testimonials {
@@ -129,7 +128,7 @@ div.reviews {
     font-size: 16px;
     background-color: #261e1c;
 }
-.accordion-item: {
+.accordion-item {
     background-color: #261e1c;
 }
 
@@ -138,6 +137,9 @@ div.reviews {
     background-color: #261e1c;
     font-size: 22px;
 }
+.accordion-button.collapsed {
+    color: #fff;
+}
 .accordion-button:not(.collapsed) {
     color: #fff;
     background-color: #261e1c;
@@ -145,7 +147,7 @@ div.reviews {
 }
 
 .container-connect {
-    max-width: 980px;
+    max-width: 1024px;
     margin: auto;
     background-color: #261e1c;
 }
