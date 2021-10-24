@@ -42,7 +42,6 @@
     font-family: 'Prata';
     font-size: 34px;
     margin-top: 25px;
-    text-align: center;
 }
 .awards-logo {
     margin-top: 25px;
@@ -57,16 +56,18 @@
     text-align: center;
 }
 
-div.reviews {
+.reviews {
     font-family: 'Rubik';
     color: rgb(137, 128, 130);
     text-align: center;
+    width: 60%;
     margin-top: 45px;
     height: 188px;
 }
 
-.carousel-indicators: {
-    margin-top: 20px;
+.carousel {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
 }
 .testimonials {
     background-color: #261e1c;
@@ -129,7 +130,7 @@ div.reviews {
     font-size: 16px;
     background-color: #261e1c;
 }
-.accordion-item: {
+.accordion-item {
     background-color: #261e1c;
 }
 
@@ -138,6 +139,9 @@ div.reviews {
     background-color: #261e1c;
     font-size: 22px;
 }
+.accordion-button.collapsed {
+    color: #fff;
+}
 .accordion-button:not(.collapsed) {
     color: #fff;
     background-color: #261e1c;
@@ -145,7 +149,7 @@ div.reviews {
 }
 
 .container-connect {
-    max-width: 980px;
+    max-width: 1024px;
     margin: auto;
     background-color: #261e1c;
 }

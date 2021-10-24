@@ -16,6 +16,16 @@ justify-content: space-between;
 align-content: space-between;
 }
 
+.navbar {
+    display: block;
+}
+
+@media (min-width: 990px;) {
+    header .navbar {
+        background-color: #261e1c;
+    }
+}
+
 div .content-header {
     display: flex;
     padding-top: 22px;
@@ -30,18 +40,37 @@ div .content-header {
     width: 176px;
 }
 
+header div .navbar-collapse {
+    text-align: right;
+}
+
+@media (min-width: 990px) {
+    header div .menu {
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+}
+
 header div .menu > a {
     font-family: Rubik, sans-serif;
     font-size: 16px;
     color: rgb(255, 255, 255);
 }
-div .soc-icon > img {
+
+header div .menu > a:hover {
+    color: rgb(200, 105, 58);
+}
+
+div .soc-icon a > img {
     border: 0.01em solid;
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: white;
-    width: 12px;
-    height: 12px;
-    padding: 5px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 22px;
+    height: 22px;
 }
 
 div .content-hero{
@@ -50,6 +79,10 @@ div .content-hero{
     padding-bottom: 130px;
     padding-left: 24px;
     padding-right: 24px;
+}
+div .headerClock {
+    color: white;
+    padding-bottom: 10px;
 }
 .content-hero > h5 {
     display: block;
