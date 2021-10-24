@@ -16,6 +16,7 @@
     
 }
 
+
 .wine-table {
     background-color: var(--main-color);
     
@@ -43,22 +44,23 @@
     color: white;
     text-align: center;
     margin-bottom: 25px;
-    white-space: pre-wrap;
+    
     line-height: 2rem;
 }
 
-.decor-text {
+.decor-text-wine-traditional {
     color: var(--accent-decor-color);
     font-family: 'Great Vibes', cursive;
     font-size: 1.75rem;
     margin-bottom: 25px;
+    margin-top: 50px;
 
 }
 
 .name-of-section {
     color: white;
     font-family: 'Prata', serif;
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -67,10 +69,74 @@
     margin-bottom: 25px;
 }
 
+.bold-main-text-center {
+    font-family: Rubik, sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 16px;
+}
+
+.bold-number-text-center {
+    font-family: Rubik, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    
+}
+
 .photo-and-description-year {
     color: var(--main-color);
     padding: 25px;
 }
+
+.products-carusel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.wine-image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+}
+
+.products-carusel > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    align-items: center;
+}
+
+.button-info {
+    padding: 0.25em 1.25em;
+    border: 0.15em solid white;
+    border-radius: 0.15em;
+    background-color: transparent;
+    font-family: Rubik, sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.button-info:hover {
+    color: var(--main-color);
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
 
 .photo-with-many-bottles {
     max-width: 1024px;
@@ -149,31 +215,97 @@
 }
 
 
-
-
-.wine-behaind-text {
-    background-color: var(--main-color);
+.background-one-wine {
+    background-image: url(../img/wine-table-traditional/back-bottle-new.png);
+    background-size: cover;
+    background-position: right;
+    min-height: auto;
+    margin-top: 50px;
+    
+      
+    
 }
 
-.back-bottle {
+.name-of-section-left {
+    color: white;
+    font-family: 'Prata', serif;
+    font-size: 2.5rem;
+    
+    margin-bottom: 25px;
+}
+
+.bold-main-text-left {
+    font-family: Rubik, sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    
+    margin-bottom: 25px;
+    
+    line-height: 2rem;
+}
+
+.different-wine-description {
     max-width: 1024px;
     margin: auto;
+    padding: 25px;
+    
+    
 }
 
-.back-bottle-background {
-    display: none;
-}
 
-
-
-
-@media (min-width: 1024px) {
-        .back-bottle-background {
-        display: flex;
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
+.wine-description-background-bottle {
+    display: flex;
+    flex-direction: column;
         
-    }
+}
+
+.tire {
+    color: var(--accent-decor-color);
+}
+
+.grey-main-text-left {
+    font-family: Rubik, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: rgba(215, 215, 215, 0.5);
+    text-decoration: none;
+    
+    
+}
+
+
+.last-el-in-description {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 740px) {
+    .different-wine-description {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+}
 
 }
+
+@media (min-width: 900px) {
+    .different-wine-description {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+}
+
+}
+@media (min-width: 1024px) {
+    .different-wine-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+}
+
+}
+
+
+
