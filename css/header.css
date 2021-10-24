@@ -20,6 +20,12 @@ align-content: space-between;
     display: block;
 }
 
+@media (min-width: 990px;) {
+    header .navbar {
+        background-color: #261e1c;
+    }
+}
+
 div .content-header {
     display: flex;
     padding-top: 22px;
@@ -52,10 +58,15 @@ header div .menu > a {
     color: rgb(255, 255, 255);
 }
 
-div .soc-icon > img {
+header div .menu > a:hover {
+    color: rgb(200, 105, 58);
+}
+
+div .soc-icon a > img {
     border: 0.01em solid;
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: white;
+    color: white;
     margin-left: 5px;
     margin-right: 5px;
     width: 22px;
@@ -69,7 +80,10 @@ div .content-hero{
     padding-left: 24px;
     padding-right: 24px;
 }
-
+div .headerClock {
+    color: white;
+    padding-bottom: 10px;
+}
 .content-hero > h5 {
     display: block;
     font-family: "Great Vibes", sans-serif;
