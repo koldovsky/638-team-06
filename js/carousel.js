@@ -1,6 +1,6 @@
 (function () {
     const slides = [
-        ` <p class="reviews">"I really like to please myself with good wine with a rich taste.
+        ` <p class="carousel-reviews">"I really like to please myself with good wine with a rich taste.
         Therefore,
         from
         time tj time, I
@@ -12,7 +12,7 @@
         enjoy
         endlessly"
         </p>`,
-        `<p class="reviews">"We were to hold a responsible event with a buffet table and
+        `<p class="carousel-reviews">"We were to hold a responsible event with a buffet table and
         wanted to
         surprise
         our
@@ -22,7 +22,7 @@
         bottles of
         Chardonnay. Our guests were delighted and asked for the name of the producer!"
         </p>`,
-        `<p class="reviews">"Our restaurant has been cooperating with this winery for
+        `<p class="carousel-reviews">"Our restaurant has been cooperating with this winery for
         over 10 years. We
         order
         the
@@ -55,9 +55,9 @@
 
     setInterval(nextSlide, 1000);
 
-    document.querySelector(`.carousel .next`).addAventListener(`click`, nextSlide);
-    document.querySelector(`.carousel .prev`).addAventListener(`click`, prevSlide);
-    
+    document.querySelector(`.carousel .carousel-next`).addAventListener(`click`, nextSlide);
+    document.querySelector(`.carousel .carousel-prev`).addAventListener(`click`, prevSlide);
+
     showCurrentSlide();
 
 })();
