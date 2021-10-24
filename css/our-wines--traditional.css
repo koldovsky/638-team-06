@@ -7,7 +7,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 
 .window-confirm-your-age {
@@ -15,6 +14,15 @@
   padding: 80px 24px;
   max-width: 670px;
   box-sizing: border-box;
+}
+
+.sorry-bg{
+  background-color: #261e1c;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .orange-line {
