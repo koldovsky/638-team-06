@@ -83,14 +83,12 @@
   margin-bottom: 25px;
 }
 
-.discover-our-wines {
-  padding: 100px 24px;
+.discover-our-wines-bg{
   background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  box-sizing: border-box;
 }
 
 .discover-our-wines>.h-image-background {
@@ -350,6 +348,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 100px 24px;
+  box-sizing: border-box;
 }
 
 .title-our-wines {
@@ -371,6 +371,9 @@
 .in-vino-with-play-video {
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.in-vino-with-play-video-bg {
   background-image: url("../img/our-wines--traditional/background-discover-our-wines.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
