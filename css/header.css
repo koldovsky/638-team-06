@@ -16,6 +16,10 @@ justify-content: space-between;
 align-content: space-between;
 }
 
+.navbar {
+    display: block;
+}
+
 div .content-header {
     display: flex;
     padding-top: 22px;
@@ -30,18 +34,32 @@ div .content-header {
     width: 176px;
 }
 
+header div .navbar-collapse {
+    text-align: right;
+}
+
+@media (min-width: 990px) {
+    header div .menu {
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+}
+
 header div .menu > a {
     font-family: Rubik, sans-serif;
     font-size: 16px;
     color: rgb(255, 255, 255);
 }
+
 div .soc-icon > img {
     border: 0.01em solid;
     border-radius: 2px;
     background-color: white;
-    width: 12px;
-    height: 12px;
-    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 22px;
+    height: 22px;
 }
 
 div .content-hero{
@@ -51,6 +69,7 @@ div .content-hero{
     padding-left: 24px;
     padding-right: 24px;
 }
+
 .content-hero > h5 {
     display: block;
     font-family: "Great Vibes", sans-serif;
