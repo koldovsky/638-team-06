@@ -56,19 +56,23 @@
     text-align: center;
 }
 
-.reviews {
+.carousel-reviews {
     font-family: 'Rubik';
     color: rgb(137, 128, 130);
     text-align: center;
-    width: 60%;
-    margin-top: 45px;
-    height: 188px;
+    height: 180px;
+    
 }
 
 .carousel {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
+    font-family: 'Rubik';
+    color: rgb(137, 128, 130);
+    text-align: center;
+    margin-top: 20px;
 }
+
 .testimonials {
     background-color: #261e1c;
     padding: 50px 24px 50px 24px;

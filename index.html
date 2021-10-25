@@ -53,8 +53,8 @@
                     Please
                     confirm that you are over 21 years old to enter this site.</span>
                 <div class="two-button">
-                    <a class="button-with-orange-background" href="#" onclick="document.getElementById('window-confirm-your-age-full-screen').style.display = 'none'" >Yes, I`m 21+</a>
-                    <a class="button-without-background" href="#" onclick="window.location='sorry.html#'">No, I`m under 21</a>
+                    <a class="button-with-orange-background" onclick = "yes21()" href="#"   >Yes, I`m 21+</a>
+                    <a class="button-without-background" onclick = "lessThan21 ()" href="#" >No, I`m under 21</a>
                 </div>
             </section>
         </div>
@@ -77,7 +77,7 @@
                             <div class="menu">
                                 <a class="nav-link" href="#best-deals">Best deals</a>
                                 <a class="nav-link" href="#history">History</a>
-                                <a class="nav-link" href="#about-us">About Us</a>
+                                <a class="nav-link" href="#traditional-wine-varietes">About Us</a>
                                 <a class="nav-link" href="#shop">Shop</a>
                                 <a class="nav-link" href="#contact-us">Contact Us</a>
                                 <div class="soc-icon">
@@ -90,6 +90,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
         </nav>
         <div class="hero container-index">
             <div class="content-hero">
@@ -233,9 +236,6 @@
         </div>
     </div>
 
-    </div>
-
-
     <!--END SVIATOSLAV-->
 
     <!--Kateryna-->
@@ -248,7 +248,7 @@
                 <div><img class="main-decor-element" src="img/decor.svg" alt="decor-element"></div>
                 <span class="bold-main-text">Read more about our best-selling wines. Click on the button to see the details.</span>
             </div>
-            
+
             <div class="products-carusel"></div>
 
 
@@ -306,7 +306,7 @@
             </div>
 
         </div>
-        
+
         <div class="background-one-wine">
             <div class="different-wine-description" id="traditional-wine-varietes">
                 
@@ -319,26 +319,28 @@
 
                     <div><img class="main-decor-element" src="img/decor.svg" alt="decor-element"></div>
 
-                    <div class="bold-main-text-left">From the very beginning of our winery, we have concentrated on the production of classic wines.</div>
+                    <div class="bold-main-text-left">From the very beginning of our winery, we have concentrated on the
+                        production of classic wines.</div>
 
                     <div class="name-of-article">The Reds</div>
-                    <div class="grey-main-text-left"><span class="tire">-</span>  Cabernet</div>
-                    <div class="grey-main-text-left"><span class="tire">-</span>  Syrah</div>
-                    <div class="grey-main-text-left"><span class="tire">-</span>  Pinot Noir</div>
-                    
+                    <div class="grey-main-text-left"><span class="tire">-</span> Cabernet</div>
+                    <div class="grey-main-text-left"><span class="tire">-</span> Syrah</div>
+                    <div class="grey-main-text-left"><span class="tire">-</span> Pinot Noir</div>
+
                     <div class="name-of-article">The Whites</div>
-                    <div class="grey-main-text-left"><span class="tire">-</span>  Shardonnay</div>
-                    <div class="grey-main-text-left"><span class="tire">-</span>  Sauvignon Blanc</div>
-                    <div class="grey-main-text-left last-el-in-description"><span class="tire">-</span>  Pinot Grigio</div>
-                
+                    <div class="grey-main-text-left"><span class="tire">-</span> Shardonnay</div>
+                    <div class="grey-main-text-left"><span class="tire">-</span> Sauvignon Blanc</div>
+                    <div class="grey-main-text-left last-el-in-description"><span class="tire">-</span> Pinot Grigio
+                    </div>
+
                 </article>
-                
-                
+
+
             </div>
-            
-        
-        </div>  
-        
+
+
+        </div>
+
     </div>
 
 
@@ -439,7 +441,7 @@
 
     <!-- Rostik Pyliak start-code -->
     <div class="red-white-wines">
-        <div class="container">
+        <div class="container-index">
             <div class="red-white-wines-row">
                 <div class="red-wines">
                     <p class="red-wines-title">Red Wines</p>
@@ -457,7 +459,7 @@
     </div>
 
     <div class="discount">
-        <div class="container">
+        <div class="container-index">
             <div class="discount-block">
                 <h2 class="discount-title">Get your 15% personal discount</h2>
                 <p class="discount-subtitle">Join our club of wine-lovers and be the first to know about the special
@@ -467,41 +469,37 @@
         </div>
     </div>
 
-    <!-- <div class="countdown">
-            <div class="container">
-                <div class="countdown-block">
-                    <h2 class="countdown-title">SALE NOW ON</h2>
-                    <div class="countdown-row" id="countdown-row">
-                        <div class="time">
-                            <h2 id="days">00</h2>
-                            <small>Days</small>
-                        </div>
-
-                        <div class="time">
-                            <h2 id="hours">00</h2>
-                            <small>Hours</small>
-                        </div>
-
-                        <div class="time">
-                            <h2 id="minutes">00</h2>
-                            <small>Minutes</small>
-                        </div>
-
-                        <div class="time">
-                            <h2 id="seconds">00</h2>
-                            <small>Seconds</small>
-                        </div>
-                    </div>
-                    <p class="countdown-expire">Deal Expires: December 31, 2021</p>
+    <div class="countdown">
+        <div class="container-index">
+            <h2 class="countdown-title">SALE NOW ON</h2>
+            <div class="countdown-row" id="countdown-row">
+                <div class="time">
+                    <h2 id="days">00</h2>
+                    <small>Days</small>
                 </div>
-                <div class="countdown-btn">
-                    <a href="#our-wines" class="get-deal-btn">Get deal</a>
+
+                <div class="time">
+                    <h2 id="hours">00</h2>
+                    <small>Hours</small>
+                </div>
+
+                <div class="time">
+                    <h2 id="minutes">00</h2>
+                    <small>Minutes</small>
+                </div>
+
+                <div class="time">
+                    <h2 id="seconds">00</h2>
+                    <small>Seconds</small>
                 </div>
             </div>
-        </div> -->
+            <p class="countdown-expire">Deal Expires: December 31, 2021</p>
+            <a href="#our-wines" class="countdown-btn">Get deal</a>
+        </div>
+    </div>
 
     <div class="awards">
-        <div class="container">
+        <div class="container-index">
             <h5 class="awards-suptitle">Awards</h5>
             <h2 class="awards-title">Our Wines Are Our Pride</h2>
             <div class="awards-decor">
@@ -568,10 +566,10 @@
                         <h2 class="text-content">Wine is a bottled poetry. Read some stories from our customers below.
                         </h2>
                     </div>
-                    <div class="carousel container">
-                        <button class="prev">back</button>
+                    <div class="carousel">
+                        <button class="carousel-prev">back</button>
                         <div class="slide"></div>
-                        <button class="next">next</button>
+                        <button class="carousel-next">next</button>
                         <!--<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -617,7 +615,7 @@
                             <span class="visually-hidden">Next</span>
                         </button>-->
                     </div>
-                </div>
+            </div>
             </section>
 
             <section class="blog">
@@ -784,7 +782,7 @@
         </section>
 
         <footer>
-            <section class="join">
+            <section class="join" id="contact-us">
                 <div class="join-our">
                     <img src="img/footer-section/join.png">
                     <h3>Join Our Newsletter Now</h3>
@@ -809,8 +807,8 @@
                     <img src="img/footer-section/instagram.png">
                 </div>
 
-                <footer>
-                    <section class="join" id="contact-us">
+                <!-- <footer> 
+                    <section class="join">
                         <div class="join-our">
                             <img src="img/footer-section/join.png">
                             <h3>Join Our Newsletter Now</h3>
@@ -836,12 +834,7 @@
                             </div>
                         </section>
                 </footer>
-                <!--Shcherba John end-code -->
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                    crossorigin="anonymous">
-                </script>
-                <script src="js/index.js"></script>
+                Shcherba John end-code -->
                 <div class="instagram-img">
                     <h4>Instagram</h4>
                     <div class="contact-line"></div>
@@ -861,7 +854,7 @@
                     <p class="All-rights">All rights Reserved</p>
                 </div>
             </section>
-<<<<<<< HEAD
+            <!-- <<<<<<< HEAD <footer> 
 
             <footer>
                 <section class="join">
@@ -926,6 +919,7 @@
                         <p class="All-rights">All rights Reserved</p>
                     </div>
                 </section>
+<<<<<<< HEAD
             </footer>
             <!--Shcherba John end-code -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -939,16 +933,26 @@
             <script src="js/carousel.js"></script>
 =======
         </footer>
+=======
+        </footer> -->
+>>>>>>> 247ada99618879950ae2c134f6d1ac1f4bebb8dc
         <!--Shcherba John end-code -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
+        <script src="js/index.js"></script>
+        <script src="js/product-carusel-wine.js"></script>
+        <script src="js/carousel.js"></script>
         <script src="js/age-check.js"></script>
+<<<<<<< HEAD
 >>>>>>> b9c80807ae88bd87f38ad766a0533bb61fd30be9
 >>>>>>> 6fe12cf91a34305dce9cec9c220e3d03c668d6ce
 <script src="js/slides-show.js"></script>
 <script src="js/product-carusel-wine.js"></script>;
 
+=======
+        <script src="js/countdown.js"></script>
+>>>>>>> 247ada99618879950ae2c134f6d1ac1f4bebb8dc
 </body>
 
 </html>

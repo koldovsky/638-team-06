@@ -372,6 +372,10 @@
   align-items: center;
 }
 
+.card-wine-shop > * {
+  margin-bottom: 10px;
+}
+
 .assortment-bottle-image {
   width: 100%;
 }
