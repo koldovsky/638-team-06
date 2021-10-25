@@ -55,8 +55,8 @@
 
     setInterval(nextSlide, 1000);
 
-    document.querySelector(`.carousel .carousel-next`).addAventListener(`click`, nextSlide);
-    document.querySelector(`.carousel .carousel-prev`).addAventListener(`click`, prevSlide);
+    document.querySelector(`.carousel .carousel-next`).addEventListener(`click`, nextSlide);
+    document.querySelector(`.carousel .carousel-prev`).addEventListener(`click`, prevSlide);
 
     showCurrentSlide();
 
