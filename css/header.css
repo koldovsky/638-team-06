@@ -20,9 +20,9 @@ align-content: space-between;
     display: block;
 }
 
-@media (min-width: 990px;) {
-    header .navbar {
-        background-color: #261e1c;
+@media (min-width: 990px) {
+    .navigation-menu-header {
+        background-color: rgb(0, 0, 0, 0.5);
     }
 }
 
