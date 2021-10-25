@@ -61,11 +61,6 @@ footer{
     color:#857b7d;
 }
 
-.instagram-img img{
-    height: 100px;
-    width: 100px;
-}
-
 .contact-us{
     text-align: center;
 }
@@ -85,3 +80,20 @@ footer{
 .buttons-href h4{
     padding-top: 20px;
 }
+
+@media screen and (min-width: 500px) {
+    .facts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .facts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
