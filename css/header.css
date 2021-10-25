@@ -20,7 +20,7 @@ align-content: space-between;
     display: block;
 }
 
-@media (min-width: 990px;) {
+@media (min-width: 990px) {
      header nav .navbar {
         background-color: black;
     }
