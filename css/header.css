@@ -21,8 +21,8 @@ align-content: space-between;
 }
 
 @media (min-width: 990px;) {
-    header .navbar {
-        background-color: #261e1c;
+     header nav .navbar {
+        background-color: black;
     }
 }
 

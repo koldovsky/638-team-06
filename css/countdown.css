@@ -1,4 +1,95 @@
-.countdown-block {
+.countdown {
+    background-color: #261e1c;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.countdown-title {
+    font-family: 'Prata', serif;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.countdown-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.countdown-row > .time {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.countdown-btn {
+    display: flex;
+    justify-content: center;
+
+    background-color: #c8693a;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 180px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+
+@media (min-width: 760px) {
+
+    .countdown-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    .countdown-row > .time {
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 20px 40px;
+    }
+
+    .countdown-btn {
+        display: flex;
+        justify-content: center;
+    
+        background-color: #c8693a;
+        border: 2px solid #fff;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin: 0 40%;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: 0.2s ease-in;
+    }
+}
+
+.countdown-expire {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.countdown-btn:hover {
+    background-color: #fff;
+    border: 2px solid #c8693a;
+    color: #c8693a;
+}
+
+
+/* .countdown-block {
     background-color: #c8693a;
     text-align: center;
     padding-top: 10px;
@@ -55,4 +146,4 @@ small {
 .get-deal-btn:hover {
     background-color: #fff;
     color: #c8693a;
-}
+} */
