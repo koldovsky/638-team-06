@@ -106,12 +106,16 @@
     
 }
 
-.products-carusel > article {
+.products-carusel > .wine-picture-for-carusel {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 25px;
     align-items: center;
+}
+
+.separate-button-info {
+    color: white;
 }
 
 .button-info {
