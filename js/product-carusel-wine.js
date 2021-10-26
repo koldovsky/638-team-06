@@ -30,8 +30,7 @@
         localStorage.wineProduct = JSON.stringify(wineProduct);
     }
 
- //  renderWineBottles (wineProducts);
-
+ 
 
        
         
