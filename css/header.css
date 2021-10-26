@@ -48,6 +48,7 @@ header div .navbar-collapse {
     header div .menu {
         align-items: center;
         display: flex;
+        justify-content: flex-end;
         text-align: center;
     }
 }
