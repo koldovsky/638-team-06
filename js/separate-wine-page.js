@@ -1,9 +1,9 @@
 (function() {
 
     const wineProduct = JSON.parse(localStorage.wineProduct);
-    const wineSeparateContainer = document.querySelector('.products-separate');
+    const wineProductsContainer = document.querySelector('.products-separate');
 
-    wineSeparateContainer.innerHTML = `
+    wineProductsContainer.innerHTML = `
             <div class="separate-image">
                 <img class="wine-image" src="${wineProduct.image}" alt="Cabernet"> 
             </div>
@@ -12,7 +12,7 @@
             <div class="description-separate-image">
                 <div class="name-of-article">${wineProduct.title}</div>
                 <div class="decor-text-wine-white">${wineProduct.code}</div>
-                <div class="bold-number-text">${wineProduct.price}USD</div>
+                <div class="bold-number-text">${wineProduct.price.toFixed(2)}USD</div>
                 <div class="white-line"></div>
                 <div class="count-and-card">
                     <div class="count-plus-minus"></div>
@@ -30,9 +30,4 @@
                     
             </div>
             `;
-            
-   
-     
-        
-  
 })();

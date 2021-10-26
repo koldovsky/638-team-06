@@ -90,7 +90,7 @@
                 <img class="wine-image" src="${wineProduct.image}" alt="${wineProduct.title}">
                 <div class="bold-main-text-center">${wineProduct.title}</div>
                 <div class="bold-number-text-center">${wineProduct.price.toFixed(2)}USD</div>
-                <a href="wine-separate-page.html" class="wine-info-button" data-id="${wineProduct.id}"><button class="button-info">Info</button></a>
+                <a href="wine-separate-page.html" class="button-info wine-info-button" data-id="${wineProduct.id}">Info</a>
 
             </div>
             `;
@@ -101,7 +101,7 @@
         
     }
 
-    function wineInfoClick (event) {
+    function wineInfoClick(event) {
         const bottleInfoButton = event.target;
         const wineProductId = bottleInfoButton.dataset.id;
         const wineProduct = wineProducts.filter(wineProduct => wineProduct.id === wineProductId)[0];
