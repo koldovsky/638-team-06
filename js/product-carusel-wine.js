@@ -1,85 +1,7 @@
-(function() {
+(async function() {
 
-    const wineProducts = [
-            {
-                id: "1",
-                title: 'Cabernet',
-                price: 17.00,
-                image: 'img/wine-table-traditional/cabernet.jpeg',
-                code: 'Product code 18',
-                description: "If you don't want which red wine to buy, think of this Cabernet. It has a very deep dark purple color and opens with boysenberry, bourbon, and vanilla aromas. Then you'll feel brown sugar, cocoa, spices, and currants. It's a wine with a really rich taste."
-                
-
-            },
-            {
-                id: "2",
-                title: 'Pinot Grigio',
-                price: 10.00,
-                image: 'img/wine-table-traditional/pinotGrigio.jpeg',
-                code: 'Product code 23',
-                description: "Bright golden color. Gentle aromas and flavors of peach cobbler, honeydew, and apple with a silky, fruity-yet-dry medium body, and lemon and nut in the finish."
-               
-
-
-            },
-            {
-                id: "3",
-                title: 'Pinot Noir',
-                price: 12.00,
-                image: 'img/wine-table-traditional/ponotNoir.jpeg',
-                code: 'Product code 20',
-                description: "It is one of the lightest red wines. Pinot Noir is easy to drink, it won't punch you in the face like some reds can and is perfect for romantic evenings and meetings with friends. Our Pinot Noir has a 'light body' and feels silky to the tongue. You might taste bright berries like raspberry and cranberry."
-
-
-            },
-            {
-                id: "4",
-                title: 'Riesling',
-                price: 16.00,
-                image: 'img/wine-table-traditional/riesling.jpeg',
-                code: 'Product code 24',
-                description: "Dazzling silver-gold in color, with intense mineral aromas of shale, gravel, and limestone, combined with notes of white flower, green apple, peach, and lemon oil. You can smell the flavors of fresh apricot, lime, and grapefruit pith."
-
-            },
-            {
-                id: "5",
-                title: 'Sauvignon Blanc',
-                price: 12.00,
-                image: 'img/wine-table-traditional/sauvignonBlanc.jpeg',
-                code: 'Product code 22',
-                description: "Light yet unique in character, this Sauvignon Blanc by CaliWines is filled with aromas of apple, grapefruit, gooseberry, and guava. This wine is light bodied with a fresh finish and a light yellow color."
-
-            },
-            {
-                id: "6",
-                title: 'Soave',
-                price: 12.00,
-                image: 'img/wine-table-traditional/soave.jpeg',
-                code: 'Product code 25',
-                description: "Light straw color. Delicate and gentle aroma of sweet field flowers: camomile, elder, and iris. Minced palate with almond aftertaste. Pairs with steamed fish, fresh cheese, and mussels."
-
-            },
-            {
-                id: "7",
-                title: 'Syrah',
-                price: 13.00,
-                image: 'img/wine-table-traditional/syrah.jpeg',
-                code: 'Product code 19',
-                description: "This intense wine has aromas of violets, red fruit, cherry, blackberry, and vanilla. It also features rich flavors of blackberry, black cherry, plum, and vanilla with silky tannins and a rich finish."
-
-
-            },
-            {
-                id: "8",
-                title: 'Zifandel',
-                price: 14.00,
-                image: 'img/wine-table-traditional/zifandel.jpeg',
-                code: 'Product code 21',
-                description: "This wine is produced from more ripened berries than usual. Core flavors are rich, with jammy blackberries and mocha. You can pair this wine with braised ribs, chicken enchiladas, or dark chocolate."
-
-            }
-            
-    ];
+    const response = await fetch('wine-products.json');
+    const wineProducts = await response.json();
 
     function renderWineBottles (wineProducts) {
         const wineProductsContainer = document.querySelector('.products-carusel');
@@ -108,7 +30,7 @@
         localStorage.wineProduct = JSON.stringify(wineProduct);
     }
 
-   renderWineBottles (wineProducts);
+ //  renderWineBottles (wineProducts);
 
 
        
