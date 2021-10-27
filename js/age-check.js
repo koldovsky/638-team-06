@@ -3,6 +3,7 @@
 // document.getElementsById('yes, I`m 21+') = ".style.display = 'none'"
 function yes21() {
     document.getElementById('window-confirm-your-age-full-screen').style.display = 'none';
+    document.body.classList.remove("lock");
 }
 
 function lessThan21() {
@@ -48,7 +49,7 @@ function lessThan21() {
         const productsConatainer = document.querySelector('.assortment');
         for (const product of productsOurWines) {
             productsConatainer.innerHTML +=
-            `
+                `
             <div class="card-wine-shop ${product.classForCssAndHrefAndImg}-assortment-index">
                 <a href="${product.classForCssAndHrefAndImg}.html">
                     <img class="assortment-bottle-image" src="img/imagine-wine-bottle/${product.classForCssAndHrefAndImg}.jpeg"
