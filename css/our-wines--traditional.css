@@ -306,13 +306,13 @@
 
   .assortment {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
     column-gap: 32px;
     row-gap: 32px;
   }
 
-  .pinot-noir-assortment-index {
+   /* .pinot-noir-assortment-index {
     grid-area: 1/1/2/3;
   }
 
@@ -326,7 +326,7 @@
 
   .soave-assortment-index {
     grid-area: 2/3/3/5;
-  }
+  }  */
 }
 
 @media (min-width: 992px) {
@@ -342,7 +342,7 @@
     column-gap: 32px;
   }
 
-  .pinot-noir-assortment-index {
+  /* .pinot-noir-assortment-index {
     grid-area: 1/1/2/2;
   }
 
@@ -356,7 +356,7 @@
 
   .soave-assortment-index {
     grid-area: 1/4/2/5;
-  }
+  } */
 }
 
 .discover-our-wines {
