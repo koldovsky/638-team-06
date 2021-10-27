@@ -8,14 +8,16 @@
         <img class="wine-image" src="${wineProduct.image}" alt="${wineProduct.title}">
         <div class="bold-main-text-center">${wineProduct.title}</div>
         <div class="bold-number-text-center">${wineProduct.price.toFixed(2)}USD</div>
-        <a href="wine-separate-page.html" class="button-info wine-info-button" data-id="${wineProduct.id}">Info</a>
+        <a href="wine-separate-page.html" class="button-info wine-info-button" target="_blank" data-id="${wineProduct.id}">Info</a>
+        
 
     </div>
 
         
     `);
-        
+
     
+        
 
     let currentWineSlide = 0;
     function showCurrentWineSlide() {
@@ -35,6 +37,8 @@
 
         document.querySelectorAll('.wine-info-button')
             .forEach(wineInfoButton => wineInfoButton.addEventListener('click', wineInfoClick));
+
+        window.open(a);
     };
 
     function nextSlide() {
