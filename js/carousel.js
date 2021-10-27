@@ -49,7 +49,7 @@
 
     function prevSlide() {
         currentSlide--;
-        if (currentSlide < 0) currentSlide = slide.length -1;
+        if (currentSlide < 0) currentSlide = slides.length -1;
         showCurrentSlide();
     }
 

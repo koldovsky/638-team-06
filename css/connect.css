@@ -61,7 +61,8 @@
     color: rgb(137, 128, 130);
     text-align: center;
     height: 180px;
-    
+    display: flex;
+    align-items: center;
 }
 
 .carousel {
@@ -73,8 +74,18 @@
     margin-top: 20px;
 }
 
-.testimonials {
+.carousel-prev {
     background-color: #261e1c;
+    border: 0px;
+}  
+
+.carousel-next {
+    background-color: #261e1c;
+    border: 0px;
+}
+
+.testimonials {
+    
     padding: 50px 24px 50px 24px;
 }
 
