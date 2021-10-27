@@ -25,6 +25,10 @@
   align-items: center;
 }
 
+.lock{
+  overflow: hidden;
+}
+
 .orange-line {
   height: 2px;
   width: 10%;
