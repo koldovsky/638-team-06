@@ -38,6 +38,7 @@ footer{
 .join {
     padding-top: 50px;
     margin-left: 20px;
+    display: block;
 }
 
 .join-our h3{
@@ -61,13 +62,9 @@ footer{
     color:#857b7d;
 }
 
-.instagram-img img{
-    height: 100px;
-    width: 100px;
-}
-
 .contact-us{
-    text-align: center;
+    padding-top: 20px;
+    display: block;
 }
 
 .contact-line{
@@ -84,4 +81,30 @@ footer{
 
 .buttons-href h4{
     padding-top: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .facts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .facts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .contact-us-blocks{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+    .buttons-href{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

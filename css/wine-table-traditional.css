@@ -97,6 +97,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 25px;
+}
+
+.wine-carusel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .wine-image {
@@ -106,16 +114,31 @@
     
 }
 
-.products-carusel > .wine-picture-for-carusel {
+.prewWine {
+    background-color: var(--main-color);
+    border: 0.15em solid var(--main-color);
+}
+
+.nextWine {
+    background-color: var(--main-color);
+    border: 0.15em solid var(--main-color);
+}
+
+.wine-picture-for-carusel {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 25px;
     align-items: center;
+    margin: 25px;
+    
 }
 
 .separate-button-info {
     color: white;
+}
+
+.wine-carusel {
+    margin: 25px;
 }
 
 .button-info {
