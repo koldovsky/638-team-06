@@ -102,7 +102,7 @@
                 <p class="tekst">Grown with love and respect for the California lands.</p>
                 <div class="buttons">
                     <div class="shop-now">
-                        <a href="#">Shop now</a>
+                        <a href="#our-wines">Shop now</a>
                     </div>
                     <div class="learn-more">
                         <a href="#our-wines-special">Learn more</a>
@@ -413,13 +413,13 @@
                 <div class="red-wines">
                     <p class="red-wines-title">Red Wines</p>
                     <p class="red-wines-about">Great selection of red wines for you.</p>
-                    <a href="products.html" class="shop-wine-btn">Shop red wines</a>
+                    <a href="products-with-burger.html" class="shop-wine-btn">Shop red wines</a>
                 </div>
 
                 <div class="white-wines">
                     <p class="white-wines-title">White Wines</p>
                     <p class="white-wines-about">Top white wines for any occasion. </p>
-                    <a href="products.html" class="shop-wine-btn">Shop white wines</a>
+                    <a href="products-with-burger.html" class="shop-wine-btn">Shop white wines</a>
                 </div>
             </div>
         </div>
@@ -534,9 +534,15 @@
                         </h2>
                     </div>
                     <div class="carousel">
-                        <button class="carousel-prev">back</button>
+                        <button class="carousel-prev"type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span></button>
                         <div class="slide"></div>
-                        <button class="carousel-next">next</button>
+                        <button class="carousel-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span></button>
                         <!--<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -760,7 +766,7 @@
                     <a href="#"><strong>Sumbit</strong></a>
                 </div>
             </section>
-            <section class="contact-us">
+            <section class="contact-us-blocks">
                 <div class="icons">
                     <h4>Contact Us</h4>
                     <div class="contact-line"></div>
@@ -775,13 +781,6 @@
                 </div>
 
                 <footer>
-                    <section class="join">
-                        <div class="join-our">
-                            <img src="img/footer-section/join.png">
-                            <h3>Join Our Newsletter Now</h3>
-                            <p class="join-text">Learn more about wines and our special offers with our weekly digests.
-                            </p>
-                        </div>
                         <section class="buttons-href">
                             <div>
                                 <h4>Information</h4>
@@ -832,9 +831,10 @@
         <script src="js/countdown.js"></script>
         
         <script src="js/slides-show.js"></script>
-        <script src="js/product-carusel-wine.js"></script>
-        <script src="js/carusel-bottle.js"></script>
-        <script src="js/separate-wine-page.js"></script>
+   
+        <script src="js/wine-bottle-carusel.js"></script>
+        
+        
      <!--    <script src="js/countdown.js"></script>-->
 
 </body>

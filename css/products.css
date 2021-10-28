@@ -1,5 +1,4 @@
 
-
 * {
     padding: 0;
     margin: 0;
@@ -17,7 +16,6 @@ main {
     background-color: #261e1c;
     padding: 25px;
 }
-
 
 .main-text {
     font-family: Rubik, sans-serif;
@@ -63,7 +61,6 @@ header .below-header {
     background-color: #1a1513;
     padding: 0px 25px 25px 25px;
 }
-
 
 
 @media (min-width: 800px) {
@@ -126,7 +123,6 @@ header nav .menu {
 
 
 
-
 .below-header {
     display: none;
     
@@ -153,7 +149,6 @@ header .menu-click a {
 @media (max-width: 800px) {
     
 }
-
 
 
 
@@ -198,7 +193,6 @@ header .menu-click a {
     justify-content: space-between;
 }
 }
-
 
 
 header nav .menu a {
@@ -250,7 +244,6 @@ main .products > article {
     text-align: center;
     margin-top: 24px;
 }
-
 
 .name-of-page {
     font-family: 'Prata', serif;
@@ -340,7 +333,6 @@ form .bottom-arrow {
 }
 
 
-
 .orange-line {
     background-color: #c8693a;
     width: 50px;
@@ -357,11 +349,9 @@ form .bottom-arrow {
 
 
 
-
 .info-on-bottom {
     margin-top: 16px;
 }
-
 
 .bottom-icons {
     display: flex;
@@ -371,7 +361,6 @@ form .bottom-arrow {
     width: 26px;
     margin: 32px 10px 0px 0px;
 }
-
 
 
 .main-bottom-footer {
@@ -396,9 +385,7 @@ footer .contacts-text > article {
 
 
 
-
 }
-
 
 .bottom-footer {
     max-width: 1024px;
@@ -420,7 +407,6 @@ footer .contacts-text > article {
     color: white;
     text-decoration: none;
 }
-
 
 @media (min-width: 700px) {
     .container-with-photos {
@@ -457,7 +443,6 @@ footer .contacts-text > article {
 }
 
 
-
 @media (min-width: 800px) {
     .container-with-photos {
         
@@ -471,5 +456,6 @@ footer .contacts-text a:hover {
     color: #c8693a;
        
 }
+
 
 
