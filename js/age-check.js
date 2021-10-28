@@ -1,14 +1,17 @@
-// onclick="document.getElementById('window-confirm-your-age-full-screen').style.display = 'none'"
-// onclick="document.getElementById('window-confirm-your-age-full-screen').window.location='sorry.html#'"
-// document.getElementsById('yes, I`m 21+') = ".style.display = 'none'"
-function yes21() {
+const yes21 = document.querySelector('.yes21');
+function yes21function() {
     document.getElementById('window-confirm-your-age-full-screen').style.display = 'none';
     document.body.classList.remove("lock");
+    yes21.removeEventListener("click", yes21function);
 }
+yes21.addEventListener("click", yes21function);
 
-function lessThan21() {
+const lessThan21 = document.querySelector('.lessThan21');
+function lessThan21function() {
     window.location = 'sorry.html#';
+    lessThan21.removeEventListener("click", lessThan21function);
 }
+lessThan21.addEventListener("click", lessThan21function);
 
 (function () {
     const productsOurWines = [
