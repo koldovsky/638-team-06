@@ -370,6 +370,9 @@ header .menu a:hover {
        
 }
 
+
+
+
 .backet-position {
     display: flex;
     justify-content: flex-end;
@@ -385,6 +388,28 @@ header .menu a:hover {
     z-index: 15;
     
 }
+
+.number-of-bottles {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 90px;
+    z-index: 17;
+}
+.orange-circle {
+    background-color: var(--accent-decor-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.05rem;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
 
 .wine-image {
     display: flex;

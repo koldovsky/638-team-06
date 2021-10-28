@@ -89,7 +89,7 @@ footer {
     font-size: 1.15rem;
     font-weight: 600;
     color: white;
-    margin-top: 16px;
+    margin-top: 8px;
 }
 
 .bold-main-text {
@@ -324,6 +324,11 @@ header .menu a {
 header .menu a:hover {
     color: var(--accent-decor-color);
        
+}
+
+.backet-button {
+    background-color: transparent;
+    border: 0.15em solid var(--main-color);
 }
 
 .backet-position {
@@ -600,5 +605,9 @@ footer .contacts-text a:hover {
     color: var(--accent-decor-color);
        
 }
+
+
+
+
 
 

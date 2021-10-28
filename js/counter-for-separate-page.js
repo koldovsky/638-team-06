@@ -17,20 +17,45 @@ btns.forEach(btn => {
             newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
 
         }
-        inp.value = newValue;
+        inp.value = parseInt(newValue);
+
+        const orangeBucket = document.querySelector('.number-of-bottles');
+        
+
+        document.querySelector('.button-big').addEventListener('click', addToCardNumber);
+
+        function addToCardNumber () {
+            const cart = document.querySelector('.number-of-bottlees');
+            const cartIcon = document.querySelector('.orange-circle');
+            const cartQuantity = cartIcon.querySelector('span');
+                   
+            
+            cartIcon.insertAdjacentHTML('beforeend', `<span>${newValue}</span>`);
+
+        }
+
     })
 })
 
-   /* async updateBadge() {
-        const {count} = await this.newValue();
-        document.querySelector('#press-to-button').innerText = `${count}`;
-    }*/
+    
 
-//document.querySelector('.button-big').addEventListener('click', addToCardNumber);
 
-//    function addToCardNumber(event) {
-//        const addToCardButton = event.target;
-//        alert(newValue);
-//    }
+    // function addToCardNumber (event) {
+       
+    //     const addToCardButton = event.target;
 
+    //     const circleContainer = document.querySelector('.number-of-bottles');
+
+    //     circleContainer.innerHTML = `
+        
+    //     <div class="orange-circle">${newValue}</div>
+        
+    //     `;
+
+     
+    // }
+
+    
+
+   
 })();

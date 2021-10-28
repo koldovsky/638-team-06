@@ -10,11 +10,11 @@
             wineProductsContainer.innerHTML += `
             
             <article>
-                    <img class="wine-image" src="${wineProduct.image}" alt="${wineProduct.title}">
-                    <div class="bold-main-text">${wineProduct.title}Cabernet</div>
-                    <p class="bold-number-text">${wineProduct.price.toFixed(2)}USD</p>
-                    <input class="button" type="button" value="Buy" data-id="${wineProduct.id}">
-                </article>
+                <img class="wine-image" src="${wineProduct.image}" alt="${wineProduct.title}">
+                <div class="bold-main-text">${wineProduct.title}</div>
+                <p class="bold-number-text">${wineProduct.price.toFixed(2)}USD</p>
+                <input class="button" type="button" value="Buy" data-id="${wineProduct.id}">
+            </article>
             `;
             }
             document.querySelectorAll('.button')
