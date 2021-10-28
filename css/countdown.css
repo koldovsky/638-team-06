@@ -1,7 +1,7 @@
 .countdown {
     background-color: #261e1c;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .countdown-title {
@@ -86,6 +86,11 @@
     background-color: #fff;
     border: 2px solid #c8693a;
     color: #c8693a;
+}
+
+.time small {
+    font-size: 18px;
+    opacity: .50;
 }
 
 
