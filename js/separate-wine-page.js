@@ -19,7 +19,7 @@
                         <button class="counter-btn" data-direction="minus">-</button>
                         <input type="text" value="0" class="counter-value">
                         <button class="counter-btn" data-direction="plus">+</button>
-                    </div>
+
                     <div>
                         <button class="button-big" id="pressToButton">Add to card</button>
                     </div>

@@ -1,23 +1,26 @@
 (function () {
 
-const btns = document.querySelectorAll('.counter-btn');
+    
 
-btns.forEach(btn => {
-    btn.addEventListener('click', function() {
-        const direction = this.dataset.direction;
-        const inp = this.parentElement.querySelector('.counter-value');
-        const currentValue = +inp.value;
 
-        let newValue;
+// const btns = document.querySelectorAll('.counter-btn');
 
-        if (direction === 'plus') {
-            newValue = currentValue + 1;
-        } else {
+// btns.forEach(btn => {
+//     btn.addEventListener('click', function() {
+//         const direction = this.dataset.direction;
+//         const inp = this.parentElement.querySelector('.counter-value');
+//         const currentValue = +inp.value;
 
-            newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
+//         let newValue;
 
-        }
-        inp.value = parseInt(newValue);
+//         if (direction === 'plus') {
+//             newValue = currentValue + 1;
+//         } else {
+
+//             newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
+
+//         }
+//         inp.value = parseInt(newValue);
 
         const orangeBucket = document.querySelector('.number-of-bottles');
         
