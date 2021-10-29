@@ -19,10 +19,8 @@
     text-align: center;
 }
 
-.countdown-row > .time {
-    border: 1px solid #fff;
-    border-radius: 5px;
-    padding: 10px 30px;
+.countdown-row .time {
+    padding: 20px 40px;
 }
 
 .countdown-btn {
@@ -36,10 +34,29 @@
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 2px;
-    margin: 0 180px;
+    margin: 0 30%;
     padding: 10px 20px;
     text-decoration: none;
     transition: 0.2s ease-in;
+}
+
+
+
+.countdown-expire {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.countdown-btn:hover {
+    background-color: #fff;
+    border: 2px solid #c8693a;
+    color: #c8693a;
+}
+
+.time small {
+    font-size: 18px;
+    opacity: .50;
 }
 
 @media (min-width: 760px) {
@@ -52,10 +69,10 @@
         text-align: center;
     }
 
-    .countdown-row > .time {
+    .countdown-row .time {
         border: 1px solid #fff;
         border-radius: 5px;
-        padding: 20px 40px;
+        padding: 10px 30px;
     }
 
     .countdown-btn {
@@ -75,24 +92,6 @@
         transition: 0.2s ease-in;
     }
 }
-
-.countdown-expire {
-    font-size: 18px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.countdown-btn:hover {
-    background-color: #fff;
-    border: 2px solid #c8693a;
-    color: #c8693a;
-}
-
-.time small {
-    font-size: 18px;
-    opacity: .50;
-}
-
 
 /* .countdown-block {
     background-color: #c8693a;
