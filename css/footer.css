@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
 
+:root {
+    
+    font-size: 16px;
+    scroll-behavior: smooth;
+    --main-color: #261e1c;
+    --accent-header-color: #1a1513;
+    --accent-footer-color: rgb(27, 22, 19);
+    --accent-decor-color: #c8693a;
+    --accent-dark-color: rgb(19, 15, 14);
+    
+}
+
 .facts{
     background-color: #261e1c;
     padding-left: 30px;
@@ -97,14 +109,220 @@ footer{
     }
 }
 
-@media screen and (min-width:750px) {
-    .contact-us-blocks{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+footer {
+    background-color: var(--accent-footer-color);
+    padding: 25px;
+}
+
+.name-of-article {
+    font-family: 'Prata', serif;
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 50px;
+}
+
+.name-of-article-first {
+    font-family: 'Prata', serif;
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 16px;
+}
+
+.main-text {
+    font-family: Rubik, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: rgba(215, 215, 215, 0.5);
+    text-decoration: none;
+}
+
+@media (min-width: 700px) {
+    .menu-icon {
+        display: none;
+    }
+    .header-container {
+        display: flex;
+        align-items: center;
+    }
+    .menu-list > li {
+        list-style-type: none;
+        padding-left: 25px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .menu-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         
     }
-    .buttons-href{
+        
+    .social-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+        
+    }
+    
+    .bottom-footer {
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+.contacts-text {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+          
+    
+}
+
+.orange-line {
+    background-color: var(--accent-decor-color);
+    width: 50px;
+    height: 2.25px;
+    margin: 8px 0px 8px 0px;
+
+}
+
+
+.white-line {
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    margin: 25px 0px 25px 0px;
+
+}
+
+.insta-pic {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.info-on-bottom {
+    margin-top: 16px;
+}
+
+
+.bottom-icons {
+    display: flex;
+} 
+
+.bot-icon {
+    width: 26px;
+    margin: 32px 10px 0px 0px;
+}
+
+
+
+.main-bottom-footer {
+    background-color: var(--accent-dark-color);
+    padding: 25px;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+
+footer .contacts-text > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+
+}
+
+
+.bottom-footer {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.container-with-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+}
+
+.bottom-text {
+    font-family: Rubik, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (min-width: 700px) {
+    .container-with-photos {
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .contacts-text {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        justify-content: space-between;
     }
+    footer .contacts-text > article {
+        align-items: flex-start;
+    }
+    .bottom-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .name-of-article {
+        margin-top: 16px;
+    }
+
+    
+}
+
+@media (min-width: 800px) {
+    .contacts-text {
+    grid-template-columns: 4fr 3fr 3fr 4fr;
+    grid-column-gap: 20px;
+        
+   }
+
+}
+
+
+
+@media (min-width: 800px) {
+    .container-with-photos {
+        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+footer .contacts-text a:hover {
+    color: var(--accent-decor-color);
+       
 }
