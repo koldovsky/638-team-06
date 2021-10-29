@@ -1,5 +1,7 @@
-(function () {
 
+
+ 
+    
     const buttonBig = document.querySelector('.button-big');
     const orangeCircle = document.querySelector('.orange-circle');
     
@@ -7,7 +9,4 @@
         orangeCircle.innerHTML = `
         <div class="orange-circle"><span>${count}</span></div>
         `;
-    })
-
-
-})();
+    }

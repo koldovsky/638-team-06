@@ -1,64 +1,61 @@
 (function () {
 
-    
+    const stepper = document.querySelector('.stepper');
+    const stepperInput = document.querySelector('.stepper__input');
+    const stepperBtnUp = document.querySelector('.stepper__btnUp');
+    const stepperBtnDown = document.querySelector('.stepper__btnDown');
 
+    let count = stepperInput.value;
 
-// const btns = document.querySelectorAll('.counter-btn');
+   
+    stepperBtnUp.addEventListener('click', (e) => {
+        e.preventDefault();
+        count++;
+        stepperInput.value = count;
 
-// btns.forEach(btn => {
-//     btn.addEventListener('click', function() {
-//         const direction = this.dataset.direction;
-//         const inp = this.parentElement.querySelector('.counter-value');
-//         const currentValue = +inp.value;
+    });
 
-//         let newValue;
-
-//         if (direction === 'plus') {
-//             newValue = currentValue + 1;
-//         } else {
-
-//             newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
-
-//         }
-//         inp.value = parseInt(newValue);
-
-        const orangeBucket = document.querySelector('.number-of-bottles');
+    stepperBtnDown.addEventListener('click', (e) => {
+        e.preventDefault();
         
 
-        document.querySelector('.button-big').addEventListener('click', addToCardNumber);
-
-        function addToCardNumber () {
-            const cart = document.querySelector('.number-of-bottlees');
-            const cartIcon = document.querySelector('.orange-circle');
-            const cartQuantity = cartIcon.querySelector('span');
-                   
-            
-            cartIcon.insertAdjacentHTML('beforeend', `<span>${newValue}</span>`);
+        if (count - 1 > 0) {
+           count--;
+        } else { 
+            count = 0;
 
         }
 
+
+        stepperInput.value = count;
+
+    });
+
+
+    const buttonBig = document.querySelector('.button-big');
+    const orangeCircleContainer = document.querySelector('.number-of-bottles');
+    
+    buttonBig.addEventListener('click', (e) => {
+        let currentCount = count;
+
+        if (count > 0) {
+            orangeCircleContainer.innerHTML = `
+                <div class="orange-circle"><span>${currentCount}</span></div>
+            `;
+
+            // function reactionOnButton () {
+            //     if (currentCount == 0) {
+            //         document.body.remove(orangeCircleContainer);
+            //     }
+                
+            // }
+            
+        } 
+        
+        
     })
-})
-
+   
     
-
-
-    // function addToCardNumber (event) {
-       
-    //     const addToCardButton = event.target;
-
-    //     const circleContainer = document.querySelector('.number-of-bottles');
-
-    //     circleContainer.innerHTML = `
-        
-    //     <div class="orange-circle">${newValue}</div>
-        
-    //     `;
-
-     
-    // }
-
-    
-
+   
    
 })();

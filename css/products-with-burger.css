@@ -336,6 +336,7 @@ header .menu a:hover {
     justify-content: flex-end;
     position: sticky;
     top: 100px;
+    margin-right: 16px;
 
 }
 
