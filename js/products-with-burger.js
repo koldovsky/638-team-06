@@ -32,7 +32,63 @@
 
  
 
-    renderWineBottles(wineProducts);       
+    renderWineBottles(wineProducts); 
+    
+    
+
+    // создаем модальное окно
+
+    const btn = document.querySelector('.btn');
+    const modals = document.querySelector('.modals');
+
+    btn.addEventListener('click', (e) => {
+        
+        modals.classList.add('modals--visible');
+    });
+
+    const closeBtn = document.querySelector('.closeModal');
+
+    closeBtn.addEventListener('click', (e) => {
+        modals.classList.remove('modals--visible');
+    });
+
+
+    const stepperOne = document.querySelector('.stepperOne');
+    const stepperInput = document.querySelector('.stepper__input');
+    const stepperBtnUp = stepperOne.querySelector('.stepper__btn--up');
+    const stepperBtnDown = stepperOne.querySelector('.stepper__btn--down');
+
+    let countOne = stepperInput.value;
+
+    stepperBtnUp.addEventListener('click', (e) => {
+        e.preventDefault();
+        countOne++;
+        stepperInput.value = countOne;
+
+    });
+    stepperBtnDown.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+
+        if (countOne - 1 > 1) {
+           countOne--;
+        } else { 
+            countOne = 1;
+
+        }
+
+
+        stepperInput.value = countOne;
+
+    });
+
+    
+
+
+    
+
+
+
         
   
 })();

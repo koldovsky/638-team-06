@@ -47,6 +47,11 @@
 
 }
 
+.backet-button {
+    background-color: transparent;
+    border: 0.15em solid var(--main-color);
+}
+
 
 
 main {
