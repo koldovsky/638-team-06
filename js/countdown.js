@@ -3,7 +3,6 @@ const hours = document.querySelector('#hours');
 const minutes = document.querySelector('#minutes');
 const seconds = document.querySelector('#seconds');
 
-// Підрахунок
 const currentDate = new Date().getFullYear();
 const nextDate = new Date('January 01 2022 00:00:00');
 
