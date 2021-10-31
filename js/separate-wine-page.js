@@ -14,11 +14,13 @@
                 <div class="bold-number-text">${wineProduct.price.toFixed(2)}USD</div>
                 <div class="white-line"></div>
                 <div class="count-and-card">
-                    <div class="counter">
+                    <div class="stepper">
+                        <div class="counter stepper__btns">
                         
-                        <button class="counter-btn" data-direction="minus">-</button>
-                        <input type="text" value="0" class="counter-value">
-                        <button class="counter-btn" data-direction="plus">+</button>
+                            <button class="counter-btn stepper__btn stepper__btnDown" onclick="reactionOnButton();">-</button>
+                            <input type="text" value="0" class="counter-value stepper__input">
+                            <button class="counter-btn stepper__btn stepper__btnUp" onclick="reactionOnButton();">+</button>
+                        </div>
                     </div>
                     <div>
                         <button class="button-big" id="pressToButton">Add to card</button>
@@ -34,7 +36,6 @@
     `;
 
     
-
 
 })();
 

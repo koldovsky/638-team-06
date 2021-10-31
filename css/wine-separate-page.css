@@ -47,6 +47,11 @@
 
 }
 
+.backet-button {
+    background-color: transparent;
+    border: 0.15em solid var(--main-color);
+}
+
 
 
 main {
@@ -378,6 +383,7 @@ header .menu a:hover {
     justify-content: flex-end;
     position: sticky;
     top: 100px;
+    margin-right: 16px;
 
 }
 
@@ -394,7 +400,8 @@ header .menu a:hover {
     justify-content: flex-end;
     align-items: center;
     position: sticky;
-    top: 90px;
+    top: 100px;
+    
     z-index: 17;
 }
 .orange-circle {
@@ -477,7 +484,7 @@ header .menu a:hover {
 .name-of-page-storage {
     font-family: 'Prata', serif;
     font-size: 1.25rem;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .page-link {

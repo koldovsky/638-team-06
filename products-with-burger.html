@@ -84,15 +84,63 @@
 
         <div class="block-bg">
             <div class="backet-position">
-                <button class="backet-button"><img class="backet" src="img/wine-table-traditional/button-backet-for-shop.svg" alt="Backet"></button>
+                <button class="backet-button"><img class="backet btn" src="img/wine-table-traditional/button-backet-for-shop.svg" alt="Backet"></button>
                 
             </div>
             <div class="internet-backet">
 
             </div>
 
-            <div class="wine-for-backet">
-                <div class="choiceWine">
+
+            <!--Modal Window-->
+
+            <div class="modals">
+                <div class="modalWindow">
+                    <div class="modal">
+                        <div class="closeButton">
+                            <button class="closeModal">
+                                <img src="img/wine-table-traditional/closeIcon.svg" alt="Close" class="closeIcon">
+                            </button>
+                        </div>
+                        
+                        <div class="productModal">
+                            <div class="choiceProduct">
+                                <div class="goodsFromLocalStorage">
+                                    
+                                </div>
+                                
+                                <div class="stepperOne quantityBottles bold-main-text-dark">
+                                    <label class="stepper__fieldOne">
+                                        <input type="text" value="1" class="stepper__input">
+                                       <!-- <span class="stepper__text">pcs.</span>-->
+                                    </label>
+                                    <div class="stepper__btnsOne">
+                                        <button class="stepper__btn stepper__btn--up">+</button>
+                                        <button class="stepper__btn stepper__btn--down">-</button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="totalPrice total-main-text-dark">10.00USD</div>
+
+                            </div>
+                            <div class="formContactContainer">
+                                    <div class="darkLine"></div>
+                                <div class="formContact">
+                                    
+                                    <form action="">
+                                        <input type="text" placeholder="Name">
+                                        <input type="text" placeholder="e-mail">
+                                        <input type="text" placeholder="phone">
+                                        <button class="order">Order</button>
+                                    </form>
+
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
                     
                 </div>
             </div>
@@ -265,6 +313,7 @@
 
 <script src="js/burger-menu.js"></script>
 <script src="js/products-with-burger.js"></script>
+<script src="js/internet-backet.js"></script>
 
 </body>
 
