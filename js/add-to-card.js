@@ -1,11 +1,12 @@
 (function () {
 
     const buttonBig = document.querySelector('.button-big');
-    const orangeCircle = document.querySelector('.orange-circle');
+    const orangeCircleContainer = document.querySelector('.number-of-bottles');
     
     buttonBig.addEventListener('click', (e) => {
-        orangeCircle.innerHTML = `
-        <div class="orange-circle"><span>${count}</span></div>
+        let currentCount = counter;
+        orangeCircleContainer.innerHTML = `
+        <div class="orange-circle"><span>${currentCount}</span></div>
         `;
     })
 
