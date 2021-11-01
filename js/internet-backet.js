@@ -26,22 +26,22 @@
         </div>
         <div class="totalPrice total-main-text-dark">${(wineProduct.price * wineQuantity.counter).toFixed(2)}USD</div>
     `;
-                
+    
+    const counterSum = document.querySelector('.totalPrice');
 
     const btnMinusWin = document.querySelector('[data-action="minus"]');
 
     const btnPlusWin = document.querySelector('[data-action="plus"]');
     const counterWin = document.querySelector('[data-count]');
-    
-    
-    
+        
     
     btnMinusWin.addEventListener('click', function () {
         if (parseInt(counterWin.innerText) > 1)  {
             counterWin.innerText = --counterWin.innerText;
-
+           
         }
         updateCartCounter();
+        
         
         
     });
@@ -50,7 +50,6 @@
         
         counterWin.innerText = ++counterWin.innerText;
         updateCartCounter();
-        
         
     });
 
@@ -68,8 +67,18 @@
         `;
     }
 
-     
+
     
+
+    
+    function orangeElement(wineQuantity) {
+        if (counterWin > 0) {
+            orangeCircleContainer.innerHTML = `
+        <div class="orange-circle"><span>${counterWin}</span></div>
+        `;
+        }
+    }
+    orangeElement();
        
     
 
