@@ -6,6 +6,19 @@
     const wineProductsContainer = document.querySelector('.choiceProduct');
     const wineQuantity = JSON.parse(localStorage.counter);
 
+    const orangeCircleContainer = document.querySelector('.number-of-bottles');
+    
+
+
+    function renderOrangeElement() {
+        if (wineQuantity.counter > 0) {
+            orangeCircleContainer.innerHTML = `
+        <div class="orange-circle"><span>${wineQuantity.counter}</span></div>
+        `;
+        }
+    }
+    renderOrangeElement();
+       
       
 
     
@@ -57,30 +70,20 @@
 
 
 
-    const orangeCircleContainer = document.querySelector('.number-of-bottles');
-    
-
+   
     function updateCartCounter() {
         let currentCount = counterWin.innerText;
         orangeCircleContainer.innerHTML = `
         <div class="orange-circle"><span>${currentCount}</span></div>
         `;
     }
+    
 
 
     
 
     
-    function orangeElement(wineQuantity) {
-        if (counterWin > 0) {
-            orangeCircleContainer.innerHTML = `
-        <div class="orange-circle"><span>${counterWin}</span></div>
-        `;
-        }
-    }
-    orangeElement();
-       
-    
+      
 
     const btn = document.querySelector('.btn');
     const modals = document.querySelector('.modals');
