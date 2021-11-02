@@ -340,6 +340,30 @@ header .menu a:hover {
 
 }
 
+
+.number-of-bottles {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 100px;
+    
+    z-index: 17;
+}
+
+.orange-circle {
+    background-color: var(--accent-decor-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.05rem;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
 .backet {
     width: 50px;
     height: auto;
@@ -490,6 +514,7 @@ header .menu a:hover {
     border: 1px solid var(--main-color);
     width: 35px;
     height: 46px;
+    justify-content: center;
    
 }
 

@@ -1,6 +1,7 @@
 [
     {
        "id":"1",
+       "counter": "1",
        "title":"Cabernet",
        "price":17.00,
        "image":"img/wine-table-traditional/cabernet.jpeg",
@@ -9,6 +10,7 @@
     },
     {
        "id":"2",
+       "counter": "1",
        "title":"Pinot Grigio",
        "price":10.00,
        "image":"img/wine-table-traditional/pinotGrigio.jpeg",
@@ -17,6 +19,7 @@
     },
     {
        "id":"3",
+       "counter": "1",
        "title":"Pinot Noir",
        "price":12.00,
        "image":"img/wine-table-traditional/ponotNoir.jpeg",
@@ -25,6 +28,7 @@
     },
     {
        "id":"4",
+       "counter": "1",
        "title":"Riesling",
        "price":16.00,
        "image":"img/wine-table-traditional/riesling.jpeg",
@@ -33,6 +37,7 @@
     },
     {
        "id":"5",
+       "counter": "1",
        "title":"Sauvignon Blanc",
        "price":12.00,
        "image":"img/wine-table-traditional/sauvignonBlanc.jpeg",
@@ -41,6 +46,7 @@
     },
     {
        "id":"6",
+       "counter": "1",
        "title":"Soave",
        "price":12.00,
        "image":"img/wine-table-traditional/soave.jpeg",
@@ -49,6 +55,7 @@
     },
     {
        "id":"7",
+       "counter": "1",
        "title":"Syrah",
        "price":13.00,
        "image":"img/wine-table-traditional/syrah.jpeg",
@@ -57,6 +64,7 @@
     },
     {
        "id":"8",
+       "counter": "1",
        "title":"Zifandel",
        "price":14.00,
        "image":"img/wine-table-traditional/zifandel.jpeg",
