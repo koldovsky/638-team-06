@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="css/our-wines--traditional.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/wine-table-traditional.css">
+    <link rel="stylesheet" href="css/discount-modal.css">
     <title>Wine Store</title>
     <style>
         .custom-toggler .navbar-toggler-icon {
@@ -433,7 +434,7 @@
 
     <div class="discount">
         <div class="container-index">
-            <div class="discount-block">
+            <div class="discount-block" id="discount">
                 <h2 class="discount-title">Get your 15% personal discount</h2>
                 <p class="discount-subtitle">Join our club of wine-lovers and be the first to know about the special
                     offers.</p>
@@ -442,24 +443,16 @@
         </div>
     </div>
 
-    <!-- Modal Submin window -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
+    <div class="modal-discount-bg">
+        <div class="modal-discount-box">
+            <h2>Get your 15% personal discount</h2>
+            <label for="email">Your email:</label>
+            <input type="email" name="email">
+            <button class="modal-discount-btn" type="submit">Submit</button>
+            <!-- <span class="modal-discount-close">X</span> -->
+            <a href="#discount" class="modal-discount-close"></a>
         </div>
-      </div>
+    </div>
 
     <div class="countdown">
         <div class="container-index">
@@ -895,6 +888,7 @@
         <script src="js/age-check.js"></script>
         <script src="js/carousel.js"></script>
         <script src="js/countdown.js"></script>
+        <script src="js/discount-modal-btn.js"></script>
 
         <script src="js/slides-show.js"></script>
 
