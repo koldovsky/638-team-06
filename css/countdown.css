@@ -23,10 +23,12 @@
     padding: 20px 40px;
 }
 
-.countdown-btn {
+.btn-center {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
 
+.countdown-btn {
     background-color: #c8693a;
     border: 2px solid #fff;
     color: #fff;
@@ -34,7 +36,7 @@
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 2px;
-    margin: 0 30%;
+    margin: 0 auto;
     padding: 10px 20px;
     text-decoration: none;
     transition: 0.2s ease-in;
@@ -76,9 +78,6 @@
     }
 
     .countdown-btn {
-        display: flex;
-        justify-content: center;
-    
         background-color: #c8693a;
         border: 2px solid #fff;
         color: #fff;
@@ -86,68 +85,8 @@
         font-size: 18px;
         font-weight: 700;
         letter-spacing: 2px;
-        margin: 0 40%;
         padding: 10px 20px;
         text-decoration: none;
         transition: 0.2s ease-in;
     }
 }
-
-/* .countdown-block {
-    background-color: #c8693a;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.countdown-title {
-    font-family: 'Prata', serif;
-    font-size: 38px;
-    font-weight: 400;
-    color: #fff;
-    padding-top: 20px;
-}
-
-#countdown-row {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-#days, #hours, #minutes, #seconds {
-    font-size: 36px;
-    font-weight: 400;
-    color: #fff;
-}
-
-small {
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    opacity: .50;
-}
-
-.countdown-expire {
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.countdown-btn {
-    text-align: center;
-}
-
-.get-deal-btn {
-    background-color: #c8693a;
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    padding: 10px 30px;
-    text-decoration: none;
-    transition: 0.2s ease-in;
-}
-
-.get-deal-btn:hover {
-    background-color: #fff;
-    color: #c8693a;
-} */

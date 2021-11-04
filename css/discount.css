@@ -21,17 +21,20 @@
 }
 
 .discount-btn {
+    background-color: #c8693a;
+    color: #fff;
+    border: solid 3px #fff;
     font-family: 'Rubik', sans-serif;
     font-size: 16.5px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
     padding: 10px 30px;
-    border: solid 3px #fff;
     transition: 0.2s ease-in;
 }
 
 .discount-btn:hover {
     background-color: #fff;
     color: #c8693a;
+    border: solid 3px #c8693a;
 }
